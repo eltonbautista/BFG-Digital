@@ -6,7 +6,7 @@ export default function Navbar({ setTheme }) {
     <header className="grid justify-items-center">
       <nav className="navbar max-w-screen-xl">
         <div className="flex-1">
-          <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <a className="btn btn-ghost normal-case text-xl">BFG Digital</a>
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal p-0">

@@ -9,7 +9,7 @@ export default function Button({ title, link }) {
       >
         <span class="absolute inset-y-0 left-0 w-[2px] transition-all bg-primary group-hover:w-full group-active:bg-primary-content"></span>
 
-        <span class="relative text-sm font-medium text-primary transition-colors group-hover:text-base-100">
+        <span class="relative text-sm font-medium text-base-content transition-colors group-hover:text-white">
           {title}
         </span>
       </a>

@@ -11,7 +11,7 @@ export default function FeatureChild({ imgSrc, imgAlt, headerText, text }) {
       />
       <div className="">
         <h3 className="text-4xl">{headerText}</h3>
-        <p className="mt-6 text-base text-gray-500">{text}</p>
+        <p className="mt-6 text-base text-accent">{text}</p>
         <Button
           color="secondary"
           bg="accent"

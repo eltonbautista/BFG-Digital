@@ -3,11 +3,11 @@ import FooterLink from "./FooterLink";
 
 export default function Footer() {
   return (
-    <footer className="bg-neutral">
+    <footer className="bg-neutral text-secondary-content">
       <div className="px-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
         <div className="lg:grid lg:grid-cols-2">
           <div className="py-16 border-b border-base-100 lg:border-b-0 lg:border-l lg:order-last lg:py-24 lg:pl-12">
-            <div className="flex justify-center text-teal-300 lg:hidden">
+            <div className="flex justify-center lg:hidden">
               <svg
                 className="h-8"
                 viewBox="0 0 118 24"
@@ -61,11 +61,9 @@ export default function Footer() {
               <span className="bg-secondary rounded lg:h-1 lg:w-10 lg:block"></span>
 
               <div className="text-center lg:text-left">
-                <h5 className="text-2xl font-medium text-secondary-content">
-                  Request a Demo
-                </h5>
+                <h5 className="text-2xl font-medium ">Request a Demo</h5>
 
-                <p className="max-w-md mx-auto mt-4 text-sm leading-relaxed text-gray-400 lg:mx-0">
+                <p className="max-w-md mx-auto mt-4 text-sm leading-relaxed lg:mx-0">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Veritatis, harum deserunt nesciunt praesentium, repellendus
                   eum perspiciatis ratione pariatur a aperiam eius numquam
@@ -81,14 +79,14 @@ export default function Footer() {
                   </label>
 
                   <input
-                    className="w-full py-4 pl-3 pr-16 text-sm text-secondary-content bg-gray-800 border-none rounded-md"
+                    className="w-full py-4 pl-3 pr-16 text-sm text-primary bg-white border-none rounded-md"
                     id="email"
                     type="email"
                     placeholder="Enter your email"
                   />
 
                   <button
-                    className="absolute p-3 transition -translate-y-1/2 bg-secondary hover:bg-secondary-focus text-secondary-content rounded top-1/2 right-1.5"
+                    className="absolute p-3 transition -translate-y-1/2 bg-secondary hover:bg-secondary-focus  rounded top-1/2 right-1.5"
                     type="button"
                   >
                     <svg
@@ -112,7 +110,7 @@ export default function Footer() {
           </div>
 
           <div className="pt-16 pb-8 lg:pt-24 lg:pr-12">
-            <div className="hidden text-secondary-content lg:flex">
+            <div className="hidden  lg:flex">
               <svg
                 className="h-8"
                 viewBox="0 0 118 24"
@@ -164,9 +162,7 @@ export default function Footer() {
 
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-3 lg:mt-12">
               <div className="text-center lg:text-left">
-                <p className="text-lg font-medium text-secondary-content">
-                  About Us
-                </p>
+                <p className="text-lg font-medium ">About Us</p>
 
                 <nav className="mt-4">
                   <ul className="space-y-1.5 text-sm">
@@ -179,9 +175,7 @@ export default function Footer() {
               </div>
 
               <div className="text-center lg:text-left">
-                <p className="text-lg font-medium text-secondary-content">
-                  Our Services
-                </p>
+                <p className="text-lg font-medium ">Our Services</p>
 
                 <nav className="mt-4">
                   <ul className="space-y-1.5 text-sm">
@@ -194,9 +188,7 @@ export default function Footer() {
               </div>
 
               <div className="text-center lg:text-left">
-                <p className="text-lg font-medium text-secondary-content">
-                  Helpful Links
-                </p>
+                <p className="text-lg font-medium ">Helpful Links</p>
 
                 <nav className="mt-4">
                   <ul className="space-y-1.5 text-sm">
@@ -207,7 +199,7 @@ export default function Footer() {
                         className="flex group justify-center gap-1.5 lg:justify-start"
                         href="/"
                       >
-                        <span className="text-secondary-content transition group-hover:text-secondary-content/75">
+                        <span className=" transition group-hover:/75">
                           Live Chat
                         </span>
 
@@ -222,7 +214,7 @@ export default function Footer() {
               </div>
             </div>
 
-            <div className="pt-8 mt-16 text-sm text-secondary-content border-t border-base-100 lg:mt-24">
+            <div className="pt-8 mt-16 text-sm  border-t border-base-100 lg:mt-24">
               <p className="text-center lg:text-left">
                 <FooterLink url="/" title="Privacy Policy" underline /> &nbsp;
                 <FooterLink url="/" title="Terms & Conditions" underline />{" "}
@@ -235,7 +227,7 @@ export default function Footer() {
               </p>
               <div className="flex justify-center mt-6 gap-4 lg:justify-start">
                 <a
-                  className="text-secondary-content transition hover:text-secondary-content/75"
+                  className=" transition hover:/75"
                   href=""
                   target="_blank"
                   rel="noreferrer"
@@ -257,7 +249,7 @@ export default function Footer() {
                 </a>
 
                 <a
-                  className="text-secondary-content transition hover:text-secondary-content/75"
+                  className=" transition hover:/75"
                   href=""
                   target="_blank"
                   rel="noreferrer"
@@ -279,7 +271,7 @@ export default function Footer() {
                 </a>
 
                 <a
-                  className="text-secondary-content transition hover:text-secondary-content/75"
+                  className=" transition hover:/75"
                   href=""
                   target="_blank"
                   rel="noreferrer"

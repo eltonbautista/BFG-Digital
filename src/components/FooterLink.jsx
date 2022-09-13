@@ -6,7 +6,7 @@ export default function FooterLink({ url, title, underline }) {
       {underline ? (
         <a
           className={
-            "inline-block text-secondary-content underline transition hover:text-secondary-content/75"
+            "inline-block underline transition hover:text-secondary-content/75"
           }
           href={url}
         >
@@ -16,7 +16,7 @@ export default function FooterLink({ url, title, underline }) {
         <li>
           <a
             className={
-              "inline-block text-secondary-content transition hover:text-secondary-content/75"
+              "inline-block transition hover:text-secondary-content/75"
             }
             href={url}
           >
