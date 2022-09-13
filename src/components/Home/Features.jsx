@@ -8,7 +8,7 @@ export default function Features() {
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <p className="text-sm font-medium ">INTRODUCING</p>
-          <h2 className="mt-2 text-3xl font-bold sm:text-4xl xl:text-5xl">
+          <h2 className="mt-2 text-3xl font-bold sm:text-4xl xl:text-5xl SEO">
             The Future of Analytics
           </h2>
           <hr className="mx-auto mt-4 h-2 w-32 border-none " />
