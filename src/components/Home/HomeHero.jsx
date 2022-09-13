@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
-function Hero() {
+export default function Hero() {
   return (
     <>
-      <div className="">
+      <section className="">
         <div className="mx-auto h-full px-4 py-28 md:py-40 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8">
           <div className="flex flex-col items-center justify-between lg:flex-row">
             <div className="">
@@ -37,7 +37,7 @@ function Hero() {
               <div className="mt-10 flex flex-col items-center md:flex-row">
                 <a
                   href="/"
-                  className="focus:shadow-outline mb-3 inline-flex h-12 w-full items-center justify-center rounded  px-6 font-medium tracking-wide  shadow-md transition md:mr-4 md:mb-0 md:w-auto focus:outline-none hover:bg-blue-800"
+                  className="focus:shadow-outline mb-3 inline-flex h-12 w-full items-center justify-center rounded  px-6 font-medium tracking-wide  shadow-md transition md:mr-4 md:mb-0 md:w-auto focus:outline-none bg-secondary text-base-100 hover:bg-secondary-focus"
                 >
                   Stream Now{" "}
                 </a>
@@ -114,9 +114,7 @@ function Hero() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }
-
-export default Hero;

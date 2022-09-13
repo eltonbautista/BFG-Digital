@@ -1,14 +1,13 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Hero from "../components/Hero";
 import WebsiteLayout from "../components/WebsiteLayout";
+import Home from "../components/Home/Home";
 import React from "react";
 ---
 
 <Layout title="BFG Digital: Web Development">
-  <main>
-    <WebsiteLayout client:only="react">
-      <Hero />
-    </WebsiteLayout>
-  </main>
+  <!--  -->
+  <WebsiteLayout client:load>
+    <Home />
+  </WebsiteLayout>
 </Layout>
