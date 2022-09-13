@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import FooterLink from "./FooterLink";
 
-function Footer() {
+export default function Footer() {
   return (
     <footer className="bg-neutral">
       <div className="px-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
@@ -303,5 +303,3 @@ function Footer() {
     </footer>
   );
 }
-
-export default Footer;

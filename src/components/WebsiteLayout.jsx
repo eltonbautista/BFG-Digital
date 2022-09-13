@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 
-function WebsiteLayout({ children }) {
+export default function WebsiteLayout({ children }) {
   const [nightMode, setNightMode] = useState(false);
 
   const themeChange = function () {
@@ -12,12 +12,10 @@ function WebsiteLayout({ children }) {
   };
 
   return (
-    <div data-theme={nightMode ? "night" : "fantasy"}>
+    <div data-theme={nightMode ? "dark" : "fantasy"}>
       <Navbar setTheme={themeChange} />
       {children}
       <Footer />
     </div>
   );
 }
-
-export default WebsiteLayout;

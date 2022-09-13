@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-function FooterLink({ url, title, underline }) {
+export default function FooterLink({ url, title, underline }) {
   return (
     <>
       {underline ? (
@@ -27,5 +27,3 @@ function FooterLink({ url, title, underline }) {
     </>
   );
 }
-
-export default FooterLink;
