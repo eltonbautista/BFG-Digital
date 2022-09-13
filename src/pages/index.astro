@@ -1,10 +1,13 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Hero from "../components/Hero";
+import WebsiteLayout from "../components/WebsiteLayout";
 ---
 
 <Layout title="BFG Digital: Web Development">
   <main>
-    <Hero />
+    <WebsiteLayout client:load>
+      <Hero />
+    </WebsiteLayout>
   </main>
 </Layout>
