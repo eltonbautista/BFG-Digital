@@ -1,6 +1,7 @@
 ---
 import Navbar from "../components/Navbar.jsx";
 import Footer from "../components/Footer";
+import styles from "../styles/globals.css";
 export interface Props {
   title: string;
 }
@@ -17,7 +18,7 @@ const { title } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
-  <body data-theme="fantasy">
+  <body class="font-Questrial">
     <slot />
   </body>
 </html>

@@ -25,9 +25,9 @@ export default function Hero() {
                   An agency for high growth startups
                 </p>
                 <h2 className="mb-6 max-w-lg text-5xl font-bold leading-snug tracking-tight text-base-content sm:text-7xl sm:leading-snug">
-                  We make you look
+                  We'll develop the best for{" "}
                   <span className="my-1 inline-block border-b-8 bg-accent px-4 font-bold text-base-content">
-                    different
+                    you
                   </span>
                 </h2>
                 <p className="text-base ">
@@ -40,7 +40,7 @@ export default function Hero() {
                 <a
                   href="/"
                   aria-label=""
-                  className="group inline-flex items-center font-semibold px-4"
+                  className="group inline-flex items-center font-semibold px-4 mt-4 md:mt-1"
                 >
                   Watch how it works
                   <svg
