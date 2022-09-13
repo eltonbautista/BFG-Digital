@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Button from "../Button";
 
 export default function Hero() {
   return (
@@ -23,9 +24,9 @@ export default function Hero() {
                   </svg>
                   An agency for high growth startups
                 </p>
-                <h2 className="mb-6 max-w-lg text-5xl font-bold leading-snug tracking-tight text-primary sm:text-7xl sm:leading-snug">
+                <h2 className="mb-6 max-w-lg text-5xl font-bold leading-snug tracking-tight text-base-content sm:text-7xl sm:leading-snug">
                   We make you look
-                  <span className="my-1 inline-block border-b-8 bg-accent px-4 font-bold text-primary">
+                  <span className="my-1 inline-block border-b-8 bg-accent px-4 font-bold text-base-content">
                     different
                   </span>
                 </h2>
@@ -35,16 +36,11 @@ export default function Hero() {
                 </p>
               </div>
               <div className="mt-10 flex flex-col items-center md:flex-row">
-                <a
-                  href="/"
-                  className="focus:shadow-outline mb-3 inline-flex h-12 w-full items-center justify-center rounded  px-6 font-medium tracking-wide  shadow-md transition md:mr-4 md:mb-0 md:w-auto focus:outline-none bg-secondary text-base-100 hover:bg-secondary-focus"
-                >
-                  Stream Now{" "}
-                </a>
+                <Button link="/" title="Stream Now" />
                 <a
                   href="/"
                   aria-label=""
-                  className="group inline-flex items-center font-semibold "
+                  className="group inline-flex items-center font-semibold px-4"
                 >
                   Watch how it works
                   <svg
