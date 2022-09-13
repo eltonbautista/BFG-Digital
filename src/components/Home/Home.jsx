@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Hero from "./HomeHero";
 import Features from "./Features";
 import AboutMe from "./AboutMe";
+import WebDevelopmentSection from "./WebDevelopmentSection";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
           d="M0,224L720,128L1440,224L1440,0L720,0L0,0Z"
         ></path>
       </svg>
+      <WebDevelopmentSection />
     </main>
   );
 }

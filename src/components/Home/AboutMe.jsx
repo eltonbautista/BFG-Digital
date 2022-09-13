@@ -34,26 +34,26 @@ export default function AboutMe() {
               </div>
             </div>
             <div className="md:col-span-2">
-              <div class="container mx-auto w-full max-w-screen-xl">
+              <div class="container mx-auto w-full max-w-screen-xl border-t border-neutral border-solid ">
                 <div class="w-full pt-10 pb-5">
                   <h2 class="text-center text-3xl font-extrabold">
                     Our Values
                   </h2>
-                  <p class="mx-auto mb-4 max-w-xl py-2 text-center text-gray-600 sm:text-lg">
+                  <p class="mx-auto mb-4 max-w-xl py-2 text-center sm:text-lg">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Distinctio reprehenderit accusamus incidunt.
                   </p>
                 </div>
                 <div class="flex flex-col lg:flex-row">
-                  <ValuesChild headerText="INNOVATE.">
+                  <ValuesChild headerText="INNOVATE">
                     Deleniti earum nulla repudiandae esse delectus. Dolorem, hic
                     animi sit pariatur ducimus commodi tempore.
                   </ValuesChild>
-                  <ValuesChild headerText="GROW.">
+                  <ValuesChild headerText="GROW">
                     Deleniti earum nulla repudiandae esse delectus. Dolorem, hic
                     animi sit pariatur ducimus commodi tempore.
                   </ValuesChild>
-                  <ValuesChild headerText="SERVE.">
+                  <ValuesChild headerText="SERVE">
                     Deleniti earum nulla repudiandae esse delectus. Dolorem, hic
                     animi sit pariatur ducimus commodi tempore.
                   </ValuesChild>
