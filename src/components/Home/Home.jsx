@@ -3,6 +3,7 @@ import Hero from "./HomeHero";
 import Features from "./Features";
 import AboutMe from "./AboutMe";
 import WebDevelopmentSection from "./WebDevelopmentSection";
+import SEOSection from "./SEOSection";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         ></path>
       </svg>
       <WebDevelopmentSection />
+      <SEOSection />
     </main>
   );
 }

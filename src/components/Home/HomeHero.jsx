@@ -40,7 +40,7 @@ export default function Hero() {
                 <a
                   href="/"
                   aria-label=""
-                  className="group inline-flex items-center font-semibold px-4 mt-4 md:mt-1"
+                  className="group inline-flex items-center font-semibold px-4 mt-4 md:mt-1 hover:text-accent"
                 >
                   Watch how it works
                   <svg
