@@ -1,3 +1,5 @@
+import React from "react";
+
 function Navbar({ setTheme }) {
   return (
     <header className="grid justify-items-center">
