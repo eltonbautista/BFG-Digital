@@ -5,10 +5,10 @@ export default function Hero() {
   return (
     <>
       <section className="">
-        <div className="mx-auto h-full px-4 py-28 md:py-40 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8">
+        <div className="mx-auto h-full px-4 py-4 md:py-40 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8">
           <div className="flex flex-col items-center justify-between lg:flex-row">
             <div className="">
-              <div className="lg:max-w-xl lg:pr-5">
+              <div className="lg:max-w-xl">
                 <p className="flex text-sm uppercase ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -22,27 +22,27 @@ export default function Hero() {
                       clipRule="evenodd"
                     />
                   </svg>
-                  An agency for high growth startups
+                  BFG Digital: An agency for enabling business success
                 </p>
-                <h2 className="mb-6 max-w-lg text-5xl font-bold leading-snug tracking-tight text-base-content sm:text-7xl sm:leading-snug">
-                  We'll develop the best for{" "}
-                  <span className="my-1 inline-block border-b-8 bg-accent px-4 font-bold text-base-content">
-                    you
+                <h1 className="mb-6 max-w-xl text-5xl font-bold leading-snug tracking-tight sm:text-7xl sm:leading-snug">
+                  Our websites generate growth for{" "}
+                  <span className="my-1 inline-block border-b-8 border-accent font-bold">
+                    your business
                   </span>
+                </h1>
+                <h2>
+                  Our expert website designers and developers specialize in
+                  increasing your business's traffic and customer conversion.
                 </h2>
-                <p className="text-base ">
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque it.
-                </p>
               </div>
               <div className="mt-10 flex flex-col items-center md:flex-row">
-                <Button link="/" title="Stream Now" />
+                <Button link="/" title="Start now" />
                 <a
                   href="/"
                   aria-label=""
                   className="group inline-flex items-center font-semibold px-4 mt-4 md:mt-1 hover:text-accent"
                 >
-                  Watch how it works
+                  Learn about how we benefit your business
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="group-hover:translate-x-2 ml-4 h-6 w-6 transition-transform"
