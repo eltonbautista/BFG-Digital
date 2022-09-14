@@ -61,7 +61,7 @@ export default function Footer() {
               <span className="bg-secondary rounded lg:h-1 lg:w-10 lg:block"></span>
 
               <div className="text-center lg:text-left">
-                <h5 className="text-2xl font-medium ">Request a Demo</h5>
+                <h1 className="text-2xl font-medium ">Request a Demo</h1>
 
                 <p className="max-w-md mx-auto mt-4 text-sm leading-relaxed lg:mx-0">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -73,14 +73,14 @@ export default function Footer() {
 
               <form className="mt-6">
                 <div className="relative max-w-lg mx-auto lg:mx-0">
-                  <label className="sr-only" htmlFor="email">
+                  <label className="sr-only" htmlFor="email-footer">
                     {" "}
                     Email{" "}
                   </label>
 
                   <input
                     className="w-full py-4 pl-3 pr-16 text-sm text-primary bg-white border-none rounded-md"
-                    id="email"
+                    id="email-footer"
                     type="email"
                     placeholder="Enter your email"
                   />
@@ -89,20 +89,7 @@ export default function Footer() {
                     className="absolute p-3 transition -translate-y-1/2 bg-secondary hover:bg-secondary-focus  rounded top-1/2 right-1.5"
                     type="button"
                   >
-                    <svg
-                      className="w-4 h-4"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                      />
-                    </svg>
+                    request
                   </button>
                 </div>
               </form>
