@@ -49,7 +49,7 @@ export default function TransitioningCard({
         </a>
         <div className="mt-4 px-5 pb-5">
           <a href={link}>
-            <h1 className="text-xl tracking-tight">{title}</h1>
+            <h3 className="text-xl tracking-tight">{title}</h3>
           </a>
         </div>
       </div>

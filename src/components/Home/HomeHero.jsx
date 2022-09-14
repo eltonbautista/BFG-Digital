@@ -29,10 +29,36 @@ export default function Hero() {
                   <span className="my-1 inline-block border-b-8 border-accent font-bold">
                     your business
                   </span>
+                  <span className="sr-only">
+                    Best Website Developer Calgary Best Website Designer Calgary
+                    Best SEO Calgary Best Search Engine Optimization Calgary
+                    Best Website Developer Calgary Best Website Designer Calgary
+                    Best SEO Calgary Best Search Engine Optimization Calgary
+                    Best Website Developer Calgary Best Website Designer Calgary
+                    Best SEO Calgary Best Search Engine Optimization Calgary
+                    Best Website Developer Calgary Best Website Designer Calgary
+                    Best SEO Calgary Best Search Engine Optimization Calgary
+                    Best Website Developer Calgary Best Website Designer Calgary
+                    Best SEO Calgary Best Search Engine Optimization Calgary
+                    Best Website Developer Calgary Best Website Designer Calgary
+                    Best SEO Calgary Best Search Engine Optimization Calgary
+                    Best Website Developer Calgary Best Website Designer Calgary
+                    Best SEO Calgary Best Search Engine Optimization Calgary
+                    Best Website Developer Calgary Best Website Designer Calgary
+                    Best SEO Calgary Best Search Engine
+                  </span>
                 </h1>
                 <h2>
                   Our expert website designers and developers specialize in
-                  increasing your business's traffic and customer conversion.
+                  search engine optimization to increase your website's traffic,
+                  customer conversion, and ultimately, your quality of life.{" "}
+                  <span className="sr-only">
+                    Search Engine Optimization SEO Search Engine Optimization
+                    SEO Search Engine Optimization SEO Search Engine
+                    Optimization SEO Search Engine Optimization SEO Search
+                    Engine Optimization SEO Search Engine Optimization SEO
+                    Search Engine Optimization SEO
+                  </span>
                 </h2>
               </div>
               <div className="mt-10 flex flex-col items-center md:flex-row">

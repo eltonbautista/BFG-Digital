@@ -12,9 +12,9 @@ export default function AboutMe() {
                 Who we are
               </p>
 
-              <h1 className="mb-4 text-center text-2xl font-bold text-neutral sm:text-3xl md:mb-6 md:text-left">
+              <h2 className="mb-4 text-center text-2xl font-bold text-neutral sm:text-3xl md:mb-6 md:text-left">
                 Operational since 1967
-              </h1>
+              </h2>
 
               <p className="mb-6  sm:text-lg md:mb-8">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -34,17 +34,17 @@ export default function AboutMe() {
               </div>
             </div>
             <div className="md:col-span-2">
-              <div class="container mx-auto w-full max-w-screen-xl border-t border-neutral border-solid ">
-                <div class="w-full pt-10 pb-5">
-                  <h2 class="text-center text-3xl font-extrabold">
+              <div className="container mx-auto w-full max-w-screen-xl border-t border-neutral border-solid ">
+                <div className="w-full pt-10 pb-5">
+                  <h3 className="text-center text-3xl font-extrabold">
                     Our Values
-                  </h2>
-                  <p class="mx-auto mb-4 max-w-xl py-2 text-center sm:text-lg">
+                  </h3>
+                  <p className="mx-auto mb-4 max-w-xl py-2 text-center sm:text-lg">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Distinctio reprehenderit accusamus incidunt.
                   </p>
                 </div>
-                <div class="flex flex-col lg:flex-row">
+                <div className="flex flex-col lg:flex-row">
                   <ValuesChild headerText="INNOVATE">
                     Deleniti earum nulla repudiandae esse delectus. Dolorem, hic
                     animi sit pariatur ducimus commodi tempore.

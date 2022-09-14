@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Button from "./Button";
 import FooterLink from "./FooterLink";
 
 export default function Footer() {
@@ -61,7 +62,7 @@ export default function Footer() {
               <span className="bg-secondary rounded lg:h-1 lg:w-10 lg:block"></span>
 
               <div className="text-center lg:text-left">
-                <h1 className="text-2xl font-medium ">Request a Demo</h1>
+                <h2 className="text-2xl font-medium ">Request a Demo</h2>
 
                 <p className="max-w-md mx-auto mt-4 text-sm leading-relaxed lg:mx-0">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -84,13 +85,15 @@ export default function Footer() {
                     type="email"
                     placeholder="Enter your email"
                   />
-
-                  <button
+                  <div className="absolute text-white">
+                    <Button link="/" title="Send Request" />
+                  </div>
+                  {/* <button
                     className="absolute p-3 transition -translate-y-1/2 bg-secondary hover:bg-secondary-focus  rounded top-1/2 right-1.5"
                     type="button"
                   >
                     request
-                  </button>
+                  </button> */}
                 </div>
               </form>
             </div>
