@@ -166,10 +166,10 @@ export default function Footer() {
 
                 <nav className="mt-4">
                   <ul className="space-y-1.5 text-sm">
-                    <FooterLink url="/" title="Company History" />
-                    <FooterLink url="/" title="Meet the Team" />
-                    <FooterLink url="/" title="Employee Handbook" />
-                    <FooterLink url="/" title="Careers" />
+                    <FooterLink url="/" title="About BFG Digital" />
+                    <FooterLink url="/" title="Clients" />
+                    <FooterLink url="/" title="Testimonials" />
+                    <FooterLink url="/" title="Contact" />
                   </ul>
                 </nav>
               </div>
@@ -181,8 +181,11 @@ export default function Footer() {
                   <ul className="space-y-1.5 text-sm">
                     <FooterLink url="/" title="Web Development" />
                     <FooterLink url="/" title="Web Design" />
+                    <FooterLink
+                      url="/"
+                      title="Search Engine Optimization (SEO)"
+                    />
                     <FooterLink url="/" title="Marketing" />
-                    <FooterLink url="/" title="Google Ads" />
                   </ul>
                 </nav>
               </div>
@@ -193,7 +196,7 @@ export default function Footer() {
                 <nav className="mt-4">
                   <ul className="space-y-1.5 text-sm">
                     <FooterLink url="/" title="FAQ" />
-                    <FooterLink url="/" title="Support" />
+                    <FooterLink url="/" title="Blog" />
                     <li>
                       <a
                         className="flex group justify-center gap-1.5 lg:justify-start"
