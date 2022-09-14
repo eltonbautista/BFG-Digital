@@ -5,6 +5,7 @@ import AboutMe from "./AboutMe";
 import WebDevelopmentSection from "./WebDevelopmentSection";
 import SEOSection from "./SEOSection";
 import ContactForm from "./ContactForm";
+import SMMSection from "./SMMSection";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
       </svg>
       <WebDevelopmentSection />
       <SEOSection />
+      <SMMSection />
       <ContactForm />
     </main>
   );
