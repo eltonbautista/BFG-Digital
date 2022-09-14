@@ -4,6 +4,7 @@ import Features from "./Features";
 import AboutMe from "./AboutMe";
 import WebDevelopmentSection from "./WebDevelopmentSection";
 import SEOSection from "./SEOSection";
+import ContactForm from "./ContactForm";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       </svg>
       <WebDevelopmentSection />
       <SEOSection />
+      <ContactForm />
     </main>
   );
 }
