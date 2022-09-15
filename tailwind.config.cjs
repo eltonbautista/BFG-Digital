@@ -9,9 +9,6 @@ module.exports = {
       xl: "1440px",
       xxl: "2048px",
     },
-    fontFamily: {
-      Questrial: ["Questrial", "sans-serif"],
-    },
     extend: {
       spacing: {
         128: "32rem",
@@ -24,6 +21,8 @@ module.exports = {
       },
       fontFamily: {
         Questrial: ["Questrial", "sans-serif"],
+        Montserrat: ["Montserrat", "sans-serif"],
+        Inter: ["Inter", "sans-serif"],
       },
     },
   },
