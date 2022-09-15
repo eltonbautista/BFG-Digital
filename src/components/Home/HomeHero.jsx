@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <>
       <section className="">
-        <div className="mx-auto h-full px-4 py-4 md:py-40 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8">
+        <div className="mx-auto h-full px-4 py-4 pt-28 md:py-40 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8">
           <div className="flex flex-col items-center justify-between lg:flex-row">
             <div className="">
               <div className="lg:max-w-xl">
