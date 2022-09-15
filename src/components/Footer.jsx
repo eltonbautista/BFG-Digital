@@ -175,7 +175,10 @@ export default function Footer() {
                       url="/"
                       title="Search Engine Optimization (SEO)"
                     />
-                    <FooterLink url="/" title="Marketing" />
+                    <FooterLink
+                      url="/"
+                      title="Social Media Marketing & Management"
+                    />
                   </ul>
                 </nav>
               </div>
