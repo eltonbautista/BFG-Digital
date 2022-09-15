@@ -42,7 +42,7 @@ export default function SEOSection() {
                 <span className="whitespace-nowrap">(SEO)</span>
               </h2>
               <div>
-                <h3 className="mt-4 lg:mt-0 text-left text-base ">
+                <h3 className="mt-4 lg:mt-0 text-left text-base max-w-5xl">
                   Calgary, Search Engine Optimization is the bread and butter of
                   a successful website and it is one of the most important
                   factors to increasing your business's traffic. We have
