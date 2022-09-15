@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Button from "../Button";
+import Button, { ButtonTwo } from "../Button";
 import TransitioningCard from "../TransitioningCard";
 
 export default function WebDevelopmentSection() {
@@ -40,7 +40,11 @@ export default function WebDevelopmentSection() {
             <b>customized and uniquely inspired</b> website -{" "}
             <b>this is what sets us apart from the rest of the industry.</b>
           </p>
-          <Button title="Discover what else makes us different" link="/" />
+          {/* <Button title="Learn how we streamline your traffic" link="/" /> */}
+          <ButtonTwo
+            title="Learn about how website development and design works"
+            link="/"
+          />
         </div>
       </div>
     </section>

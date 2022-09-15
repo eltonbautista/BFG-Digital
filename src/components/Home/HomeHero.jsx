@@ -22,10 +22,10 @@ export default function Hero() {
                       clipRule="evenodd"
                     />
                   </svg>
-                  BFG Digital: An agency for enabling business success
+                  A Calgary Based Solution For Enabling Business Success
                 </p>
-                <h1 className="mb-6 max-w-xl text-5xl font-bold leading-snug tracking-tight sm:text-7xl sm:leading-snug">
-                  Our websites generate growth for{" "}
+                <h1 className="mb-6 max-w-xl text-4xl font-bold leading-snug tracking-tight sm:text-6xl md:text-7xl sm:leading-snug">
+                  Websites that generate growth for{" "}
                   <span className="my-1 inline-block border-b-8 border-accent font-bold">
                     your business
                   </span>
@@ -68,7 +68,7 @@ export default function Hero() {
                   aria-label=""
                   className="group inline-flex items-center font-semibold px-4 mt-4 md:mt-1 hover:text-accent"
                 >
-                  Learn about how we benefit your business
+                  How our websites generate business for you
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="group-hover:translate-x-2 ml-4 h-6 w-6 transition-transform"
@@ -104,7 +104,7 @@ export default function Hero() {
               <div className="abg-orange-400 w-fit rounded-[6rem] mx-auto overflow-hidden rounded-tl-none rounded-br-none">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="absolute -left-10 -top-20 h-28 w-28 rounded-xl text-secondary"
+                  className="absolute -left-10 -top-20 h-28 w-28 rounded-xl text-secondary-content"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
@@ -116,7 +116,7 @@ export default function Hero() {
                 </svg>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="absolute right-0 -bottom-20 h-28 w-28 rounded-xl text-secondary"
+                  className="absolute right-0 -bottom-20 h-28 w-28 rounded-xl text-secondary-content"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
@@ -128,7 +128,7 @@ export default function Hero() {
                 </svg>
                 <div className="flex w-96 flex-wrap">
                   <div className="h-48 w-1/2 rounded-full rounded-br-none bg-primary"></div>
-                  <div className="rounded-[6rem] h-48 w-1/2 rounded-tl-none rounded-br-none bg-secondary"></div>
+                  <div className="rounded-[6rem] h-48 w-1/2 rounded-tl-none rounded-br-none bg-secondary-content"></div>
                   <div className="h-48 w-1/2 rounded-full rounded-b-none rounded-br-none bg-accent"></div>
                   <div className="h-48 w-1/2 rounded-full rounded-t-none rounded-br-none bg-neutral"></div>
                 </div>

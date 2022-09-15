@@ -8,9 +8,7 @@ export default function AboutMe() {
         <div className="mx-auto max-w-screen-xl px-4 md:px-8">
           <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
             <div className="md:pt-8 lg:flex lg:flex-col lg:justify-center">
-              <p className="text-center font-bold text-accent md:text-left">
-                Who we are
-              </p>
+              <p className="text-center font-bold md:text-left">Who we are</p>
 
               <h2 className="mb-4 text-center text-2xl font-bold text-neutral sm:text-3xl md:mb-6 md:text-left">
                 Operational since 1967

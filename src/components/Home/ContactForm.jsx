@@ -9,8 +9,9 @@ export default function ContactForm() {
       <div className="grid lg:grid-cols-2 w-full justify-items-center max-w-screen-xl px-4 lg:px-8">
         <div className=" lg:max-w-md SEO mb-4 lg:mb-0 lg:justify-self-end">
           <h3 className="text-base lg:text-lg xl:text-xl lg:text-end">
-            Let's talk about how we can generate value for your business - a
-            conversation doesn't hurt anyone.
+            Let's talk about how BFG Digital can generate value for your
+            business - a conversation can't hurt{" "}
+            <span className="border-b-2 border-accent">you</span>.
           </h3>
         </div>
         <div className=" rounded-lg  lg:p-12 lg:pt-0 max-w-screen-xl w-full">
