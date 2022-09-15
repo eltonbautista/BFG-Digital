@@ -34,7 +34,7 @@ export default function SEOSection() {
             </div>
             <img
               className="w-full h-full max-w-full max-h-full mb-2 object-cover"
-              src="/images/best_performance_seo.png"
+              src="/images/best_performance_seo.webp"
               alt="Perfect Google Lighthouse Score"
             ></img>
             <caption>
