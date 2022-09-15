@@ -22,7 +22,7 @@ export default function Hero() {
                       clipRule="evenodd"
                     />
                   </svg>
-                  A Calgary Based Solution For Enabling Business Success
+                  Calgary Website Design For Enabling Business Success
                 </p>
                 <h1 className="mb-6 max-w-xl text-4xl font-bold leading-snug tracking-tight sm:text-6xl md:text-7xl sm:leading-snug">
                   Websites that generate growth for{" "}
@@ -30,21 +30,21 @@ export default function Hero() {
                     your business
                   </span>
                   <span className="sr-only">
-                    Best Website Developer Calgary Best Website Designer Calgary
+                    Best Website Developer Calgary Best Website Design Calgary
                     Best SEO Calgary Best Search Engine Optimization Calgary
-                    Best Website Developer Calgary Best Website Designer Calgary
+                    Best Website Developer Calgary Best Website Design Calgary
                     Best SEO Calgary Best Search Engine Optimization Calgary
-                    Best Website Developer Calgary Best Website Designer Calgary
+                    Best Website Developer Calgary Best Website Design Calgary
                     Best SEO Calgary Best Search Engine Optimization Calgary
-                    Best Website Developer Calgary Best Website Designer Calgary
+                    Best Website Developer Calgary Best Website Design Calgary
                     Best SEO Calgary Best Search Engine Optimization Calgary
-                    Best Website Developer Calgary Best Website Designer Calgary
+                    Best Website Developer Calgary Best Website Design Calgary
                     Best SEO Calgary Best Search Engine Optimization Calgary
-                    Best Website Developer Calgary Best Website Designer Calgary
+                    Best Website Developer Calgary Best Website Design Calgary
                     Best SEO Calgary Best Search Engine Optimization Calgary
-                    Best Website Developer Calgary Best Website Designer Calgary
+                    Best Website Developer Calgary Best Website Design Calgary
                     Best SEO Calgary Best Search Engine Optimization Calgary
-                    Best Website Developer Calgary Best Website Designer Calgary
+                    Best Website Developer Calgary Best Website Design Calgary
                     Best SEO Calgary Best Search Engine
                   </span>
                 </h1>
@@ -127,10 +127,10 @@ export default function Hero() {
                   />
                 </svg>
                 <div className="flex w-96 flex-wrap">
-                  <div className="h-48 w-1/2 rounded-full rounded-br-none bg-primary"></div>
-                  <div className="rounded-[6rem] h-48 w-1/2 rounded-tl-none rounded-br-none bg-secondary-content"></div>
-                  <div className="h-48 w-1/2 rounded-full rounded-b-none rounded-br-none bg-accent"></div>
-                  <div className="h-48 w-1/2 rounded-full rounded-t-none rounded-br-none bg-neutral"></div>
+                  <div className="h-48 w-1/2 rounded-full rounded-br-none bg-secondary-content"></div>
+                  <div className="h-48 w-1/2 rounded-full rounded-bl-none bg-neutral"></div>
+                  <div className="h-48 w-1/2 rounded-full rounded-tr-none bg-accent"></div>
+                  <div className="rounded-[6rem] h-48 w-1/2 rounded-tl-none bg-secondary-content"></div>
                 </div>
               </div>
             </div>

@@ -5,7 +5,7 @@ export default function SEOSection() {
     <section className="grid justify-items-center mb-12">
       <div className="h-screen w-full">
         <svg
-          className="inline-block fill-current w-full h-auto text-accent"
+          className="inline-block fill-current w-full h-auto text-neutral"
           viewBox="0 0 1440 450"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -34,18 +34,22 @@ export default function SEOSection() {
           <img className="h-full w-full" src="" alt="" />
         </div> */}
 
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 md:flex lg:px-8">
+        <div className="mx-auto max-w-screen-xl px-4 md:px-6 md:flex lg:px-8">
           <div className="relative mx-auto my-auto flex flex-col items-center">
-            <div className="grid lg:flex max-w-4xl">
+            <div className="grid  gap-2 lg:gap-4">
               <h2 className="text-left text-3xl font-black leading-tight sm:text-4xl lg:text-5xl">
                 Search Engine Optimization{" "}
                 <span className="whitespace-nowrap">(SEO)</span>
               </h2>
               <div>
-                <p className="mt-4 lg:mt-0 text-left font-medium md:text-xl">
-                  Everyone who signs up before the beta launch, will get 6
-                  months free
-                </p>
+                <h3 className="mt-4 lg:mt-0 text-left text-base ">
+                  Calgary, Search Engine Optimization is the bread and butter of
+                  a successful website and it is one of the most important
+                  factors to increasing your business's traffic. We have
+                  cultivated a particular culture here at BFG Digital that has
+                  allowed us to maintain a strategized structure when
+                  approaching Search Engine Optimization.
+                </h3>
                 <div className="flex flex-col sm:flex-row sm:space-x-4 sm:px-0">
                   <button className="relative mt-4 rounded-lg border-2 border-accent bg-accent px-6 py-2 font-medium text-neutral transition hover:translate-y-1 hover:text-white">
                     <div className="-scale-x-100 absolute left-0 -bottom-10 hidden h-10 w-10 -rotate-12 text-accent md:inline-flex">

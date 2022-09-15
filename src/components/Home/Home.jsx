@@ -12,20 +12,23 @@ export default function Home() {
     <main>
       <Hero />
       <Features />
+
       <svg
         className="text-neutral-content fill-current"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"
       >
-        <path d="M0,224L720,128L1440,224L1440,320L720,320L0,320Z"></path>
+        <path d="M0,256L1440,128L1440,320L0,320Z"></path>
       </svg>
       <AboutMe />
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          className="text-neutral-content fill-current"
-          d="M0,224L720,128L1440,224L1440,0L720,0L0,0Z"
-        ></path>
+      <svg
+        className="text-neutral-content fill-current"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path d="M0,256L1440,128L1440,0L0,0Z"></path>
       </svg>
+
       <WebDevelopmentSection />
       <SEOSection />
       <SMMSection />

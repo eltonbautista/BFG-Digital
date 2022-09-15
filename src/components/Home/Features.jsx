@@ -5,7 +5,7 @@ import FeatureChild from "./FeatureChild";
 export default function Features() {
   return (
     <section className="mx-auto max-w-screen-xl py-12 sm:py-16 lg:py-20 text-base-content">
-      <div className="mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto px-4 md:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <p className="font-bold">INTRODUCING</p>
           <h2 className="mt-2 text-3xl font-bold sm:text-4xl xl:text-5xl SEO">
