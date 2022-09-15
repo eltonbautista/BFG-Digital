@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default function ContactForm() {
   return (
     <section className="grid justify-items-center text-base-content py-8">
-      <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-3 lg:mb-10">
+      <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-center mb-3 lg:mb-10">
         Contact Us
       </h2>
       <div className="grid lg:grid-cols-2 w-full justify-items-center max-w-screen-xl px-4 md:px-6 lg:px-8">

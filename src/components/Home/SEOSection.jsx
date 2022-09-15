@@ -7,8 +7,8 @@ export default function SEOSection() {
       <div className="h-screen w-full">
         <div className="mx-auto max-w-screen-xl px-4 md:px-6 md:flex lg:px-8">
           <div className="relative mx-auto my-auto flex flex-col items-center">
-            <div className="grid gap-2 lg:gap-4 mb-4">
-              <h2 className="text-left text-3xl font-black leading-tight sm:text-4xl lg:text-5xl">
+            <div className="grid gap-2 lg:gap-4 mb-4 w-full">
+              <h2 className="text-left font-semibold leading-tight lg:text-5xl text-4xl">
                 Search Engine Optimization{" "}
                 <span className="whitespace-nowrap">(SEO)</span>
               </h2>
@@ -16,10 +16,15 @@ export default function SEOSection() {
                 <h3 className="mt-4 lg:mt-0 text-left text-base max-w-5xl">
                   Calgary, Search Engine Optimization is the bread and butter of
                   a successful website and it is one of the most important
-                  factors to increasing your business's traffic. We have
-                  cultivated a particular culture here at BFG Digital that has
-                  allowed us to maintain a strategized structure when
-                  approaching Search Engine Optimization.
+                  factors in increasing your business's traffic. At BFG Digital
+                  we have cultivated a particular people culture that allows our
+                  SEO specialists to work closely together with our developers &
+                  designers.{" "}
+                  <span className="font-semibold">
+                    This allows us to maintain an organized and strategic
+                    approach when dealing with Search Engine Optimization, which
+                    results in maximal ranking value.
+                  </span>
                 </h3>
                 <div className="flex flex-col sm:flex-row sm:space-x-4 sm:px-0">
                   <Button title="Start Now" />
@@ -32,13 +37,13 @@ export default function SEOSection() {
               src="/images/best_performance_seo.png"
             ></img>
             <caption>
-              A client's website rated on Google's Lighthouse Analytics (a tool
-              created by Google to assess a website's{" "}
-              <b>
-                Performance, Search Engine Optimization (SEO), Best Practices
-                (Security, Design) and Accessibility.
-              </b>{" "}
-              a very important metric for indicating a website's success!
+              <span className="font-semibold text-xs">
+                A client's website rated on Google's Lighthouse Analytics (a
+                tool created by Google to assess a website's Performance, Search
+                Engine Optimization (SEO), Best Practices (Security, Design) and
+                Accessibility. a very important metric that can indicate a
+                website's success!
+              </span>{" "}
             </caption>
           </div>
         </div>

@@ -1,10 +1,9 @@
 import React from "react";
 
 export default function Navbar({ setTheme }) {
-  // TODO: NEED TO MAKE RESPONSIVE BY CREATING DROP DOWN
   return (
-    <header className="grid justify-items-center">
-      <details className="group transition-all duration-150 h-10 open:h-72 overflow-hidden w-full md:hidden text-base-content">
+    <header className="grid justify-items-center bg-success text-neutral top-0 sticky z-50">
+      <details className="group transition-all duration-150 h-10 open:h-72 overflow-hidden w-full md:hidden text-neutral">
         <summary className="transition-all duration-500  flex cursor-pointer items-center rounded-lg px-4 py-2 ">
           <span className="ml-3 text-xl font-bold"> BFG Digital </span>
 
@@ -77,6 +76,15 @@ export default function Navbar({ setTheme }) {
               className="btn btn-ghost rounded-btn normal-case font-normal text-base"
             >
               Services
+              <svg
+                class="fill-current"
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+              >
+                <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+              </svg>
             </label>
             <ul
               tabIndex="0"

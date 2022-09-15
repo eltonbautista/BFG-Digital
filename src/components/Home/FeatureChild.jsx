@@ -3,7 +3,7 @@ import Button from "../Button";
 
 export default function FeatureChild({ imgSrc, imgAlt, headerText, children }) {
   return (
-    <div className="flex flex-col items-center justify-center md:flex-row">
+    <div className="flex flex-col items-center md:flex-row w-full">
       <img
         className="h-56 object-cover md:order-2 md:object-left"
         src={imgSrc}
@@ -12,9 +12,7 @@ export default function FeatureChild({ imgSrc, imgAlt, headerText, children }) {
         height="500px"
       />
       <div className="">
-        <h3 className="text-4xl font-bold">
-          <b>{headerText}</b>
-        </h3>
+        <h3 className="text-2xl md:text-3xl font-semibold">{headerText}</h3>
         <p className="mt-6 text-base text-base-content max-w-4xl">{children}</p>
         <Button
           color="secondary"

@@ -4,7 +4,7 @@ export default function Button({ title, link }) {
   return (
     <button className="mt-3">
       <a
-        className="relative inline-block px-8 py-3 overflow-hidden border border-primary group focus:outline-none focus:ring"
+        className="font-Questrial relative inline-block px-8 py-3 overflow-hidden border border-primary group focus:outline-none focus:ring"
         href={link}
       >
         <span className="absolute inset-y-0 left-0 w-[2px] transition-all bg-primary group-hover:w-full group-active:bg-primary-content"></span>
@@ -22,7 +22,7 @@ function ButtonTwo({ title, link }) {
     <a
       href={link}
       aria-label=""
-      className="group inline-flex items-center justify-self-center font-semibold px-4 mt-4 md:mt-1 hover:text-accent"
+      className="group inline-flex items-center lg:px-0 mt-4 font-semibold md:mt-1 hover:text-accent"
     >
       {title}
       <svg

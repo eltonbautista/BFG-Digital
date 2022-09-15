@@ -5,11 +5,11 @@ export default function Hero() {
   return (
     <>
       <section className="">
-        <div className="mx-auto h-full px-4 py-4 pt-28 md:py-40 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8">
+        <div className="mx-auto h-full px-4 py-4 pt-10 md:py-40 sm:max-w-xl md:max-w-full md:px-8 lg:max-w-screen-xl lg:px-8">
           <div className="flex flex-col items-center justify-between lg:flex-row">
             <div className="">
               <div className="lg:max-w-xl">
-                <p className="flex text-sm uppercase ">
+                <p className="flex text-sm uppercase mb-2 md:mb-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="mr-1 inline h-5 w-5"
@@ -24,9 +24,9 @@ export default function Hero() {
                   </svg>
                   Calgary Website Design For Enabling Business Success
                 </p>
-                <h1 className="mb-6 max-w-xl text-4xl font-bold leading-snug tracking-tight sm:text-6xl md:text-7xl sm:leading-snug">
+                <h1 className="mb-6 max-w-xl text-4xl font-semibold leading-snug tracking-tight md:text-6xl xxl:text-7xl sm:leading-snug">
                   Websites that generate growth for{" "}
-                  <span className="my-1 inline-block border-b-8 border-success font-bold">
+                  <span className="my-1 inline-block border-b-8 border-success font-semibold">
                     your business
                   </span>
                   <span className="sr-only">
@@ -61,12 +61,12 @@ export default function Hero() {
                   </span>
                 </h2>
               </div>
-              <div className="mt-10 flex flex-col items-center md:flex-row">
+              <div className="mt-2 lg:mt-6 flex flex-col items-start justify-items-start md:flex-row">
                 <Button link="/" title="Start now" />
                 <a
                   href="/"
                   aria-label=""
-                  className="group inline-flex items-center font-semibold px-4 mt-4 md:mt-1 hover:text-success"
+                  className="group inline-flex items-center font-semibold px-4 pl-0 self-center md:pl-4 mt-4 md:mt-1 hover:text-success"
                 >
                   How our websites generate business for you
                   <svg
