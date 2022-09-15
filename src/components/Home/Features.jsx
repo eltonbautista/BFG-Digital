@@ -7,7 +7,7 @@ export default function Features() {
     <section className="mx-auto max-w-screen-xl py-12 sm:py-16 lg:py-20 text-base-content">
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
-          <p className="font-bold">What do we specialize in?</p>
+          <p className="font-bold">INTRODUCING</p>
           <h2 className="mt-2 text-3xl font-bold sm:text-4xl xl:text-5xl SEO">
             Digital Services that Take Your Business to the{" "}
             <em className="border-b-4 border-accent not-italic">Next Level</em>
@@ -18,8 +18,8 @@ export default function Features() {
         <div className="mt-10 grid grid-cols-1 gap-20 text-center sm:mx-auto sm:max-w-sm md:mt-20 md:max-w-full md:text-left">
           <FeatureChild
             headerText="Web Development & Design"
-            imgAlt=""
-            imgSrc="/favicon.svg"
+            imgAlt="Low code development concept illustration by storycode from freepik.com"
+            imgSrc="/images/web_development.png"
           >
             Our expert website developers & designers strive for a highly
             performant, fully-responsive, and modern looking website design when
@@ -33,11 +33,11 @@ export default function Features() {
           </FeatureChild>
           <div className="flex flex-col items-center justify-center md:flex-row">
             <img
-              className="h-56 object-contain md:ml-0 md:object-left"
-              src="/favicon.svg"
-              alt=""
-              width="200px"
-              height="200px"
+              className="h-56 object-contain md:ml-0 md:object-left "
+              src="/images/seo.png"
+              alt="seo analytics team concept illustration by storyset from freepik.com"
+              width="400px"
+              height="500px"
             />
             <div className="">
               <h3 className="text-4xl font-bold">
@@ -68,16 +68,16 @@ export default function Features() {
           <div className="flex flex-col items-center justify-center md:flex-row">
             <FeatureChild
               headerText="Social Media Marketing & Management"
-              imgAlt=""
-              imgSrc="/favicon.svg"
+              imgAlt="hand drawn illustration of people with smartphone for marketing by pikisuperstar from freepik.com"
+              imgSrc="/images/SMM.png"
             >
               Modern problems call for modern solutions, Social Media has been
               the largest craze in the past decade and it's only becoming more
               prominent day by day.{" "}
               <b>
-                Reaching a greater audience and generating increasing customer
-                conversions for your business shouldn't be difficult - and it
-                doesn't have to be.
+                Reaching a greater audience and increasing customer conversions
+                for your business shouldn't be difficult - and it doesn't have
+                to be.
               </b>{" "}
               We offer solutions that will passively and surely guide your
               customers to you.
