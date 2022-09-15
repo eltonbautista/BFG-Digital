@@ -16,3 +16,30 @@ export default function Button({ title, link }) {
     </button>
   );
 }
+
+function ButtonTwo({ title, link }) {
+  return (
+    <a
+      href={link}
+      aria-label=""
+      className="group inline-flex items-center justify-self-center font-semibold px-4 mt-4 md:mt-1 hover:text-accent"
+    >
+      {title}
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="group-hover:translate-x-2 ml-4 h-6 w-6 transition-transform"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        strokeWidth="2"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M17 8l4 4m0 0l-4 4m4-4H3"
+        />
+      </svg>
+    </a>
+  );
+}
+export { ButtonTwo };
