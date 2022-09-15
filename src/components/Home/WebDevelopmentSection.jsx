@@ -36,15 +36,12 @@ export default function WebDevelopmentSection() {
             performant website for your business, our developers and designers
             know no boundaries. And so, we <b>don't</b> use any CMS or Website
             Building templates to craft our work. This results in{" "}
-            <span className="border-b-2 border-accent">you</span> receiving a{" "}
+            <span className="border-b-2 border-success">you</span> receiving a{" "}
             <b>customized and uniquely inspired</b> website -{" "}
             <b>this is what sets us apart from the rest of the industry.</b>
           </p>
           {/* <Button title="Learn how we streamline your traffic" link="/" /> */}
-          <ButtonTwo
-            title="Learn about how website development and design works"
-            link="/"
-          />
+          <ButtonTwo title="Learn about our website design process" link="/" />
         </div>
       </div>
     </section>

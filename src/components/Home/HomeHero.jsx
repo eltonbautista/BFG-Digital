@@ -26,7 +26,7 @@ export default function Hero() {
                 </p>
                 <h1 className="mb-6 max-w-xl text-4xl font-bold leading-snug tracking-tight sm:text-6xl md:text-7xl sm:leading-snug">
                   Websites that generate growth for{" "}
-                  <span className="my-1 inline-block border-b-8 border-accent font-bold">
+                  <span className="my-1 inline-block border-b-8 border-success font-bold">
                     your business
                   </span>
                   <span className="sr-only">
@@ -66,7 +66,7 @@ export default function Hero() {
                 <a
                   href="/"
                   aria-label=""
-                  className="group inline-flex items-center font-semibold px-4 mt-4 md:mt-1 hover:text-accent"
+                  className="group inline-flex items-center font-semibold px-4 mt-4 md:mt-1 hover:text-success"
                 >
                   How our websites generate business for you
                   <svg
@@ -104,7 +104,7 @@ export default function Hero() {
               <div className="abg-orange-400 w-fit rounded-[6rem] mx-auto overflow-hidden rounded-tl-none rounded-br-none">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="absolute -left-10 -top-20 h-28 w-28 rounded-xl text-secondary-content"
+                  className="absolute -left-10 -top-20 h-28 w-28 rounded-xl text-base-content"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
@@ -116,7 +116,7 @@ export default function Hero() {
                 </svg>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="absolute right-0 -bottom-20 h-28 w-28 rounded-xl text-secondary-content"
+                  className="absolute right-0 -bottom-20 h-28 w-28 rounded-xl text-base-content"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                 >
@@ -127,10 +127,10 @@ export default function Hero() {
                   />
                 </svg>
                 <div className="flex w-96 flex-wrap">
-                  <div className="h-48 w-1/2 rounded-full rounded-br-none bg-secondary-content"></div>
-                  <div className="h-48 w-1/2 rounded-full rounded-bl-none bg-neutral"></div>
-                  <div className="h-48 w-1/2 rounded-full rounded-tr-none bg-accent"></div>
-                  <div className="rounded-[6rem] h-48 w-1/2 rounded-tl-none bg-secondary-content"></div>
+                  <div className="h-48 w-1/2 rounded-full rounded-br-none bg-success"></div>
+                  <div className="h-48 w-1/2 rounded-full rounded-bl-none bg-success"></div>
+                  <div className="h-48 w-1/2 rounded-full rounded-tr-none bg-success"></div>
+                  <div className="rounded-[6rem] h-48 w-1/2 rounded-tl-none bg-success"></div>
                 </div>
               </div>
             </div>

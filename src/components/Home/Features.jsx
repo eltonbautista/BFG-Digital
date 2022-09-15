@@ -10,7 +10,7 @@ export default function Features() {
           <p className="font-bold">INTRODUCING</p>
           <h2 className="mt-2 text-3xl font-bold sm:text-4xl xl:text-5xl SEO">
             Digital Services that Take Your Business to the{" "}
-            <em className="border-b-4 border-accent not-italic">Next Level</em>
+            <em className="border-b-4 border-success not-italic">Next Level</em>
           </h2>
           <hr className="mx-auto mt-4 h-2 w-32 border-none " />
         </div>

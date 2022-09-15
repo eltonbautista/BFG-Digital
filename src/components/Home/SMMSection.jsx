@@ -15,7 +15,7 @@ export default function SSMSection() {
             Calgary!
           </p>
         </div>
-        <div className="col-span-2 mt-10 grid grid-cols-1 gap-10 rounded-2xl bg-neutral-content p-5 sm:p-10 md:grid-cols-2 lg:mt-0 ">
+        <div className="col-span-2 mt-10 grid grid-cols-1 gap-10 rounded-2xl bg-neutral-content p-7 md:p-10 md:grid-cols-2 lg:mt-0 ">
           <SMMChild
             step="01"
             headerText="Increase in Traffic"
