@@ -5,7 +5,7 @@ import TransitioningCard from "../TransitioningCard";
 export default function WebDevelopmentSection() {
   return (
     <section className="grid">
-      <div className="grid lg:grid-cols-3 gap-4 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      <div className="grid lg:grid-cols-3 gap-4 max-w-screen-xl mx-auto px-4 md:px-6 lg:px-8 w-full">
         <h2 className="lg:col-span-3 text-center text-base-content text-3xl sm:text-4xl font-bold xl:text-5xl mb-4 lg:mb-10 SEO">
           Web Development & Web Design
         </h2>

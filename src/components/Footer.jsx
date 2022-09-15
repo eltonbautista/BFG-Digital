@@ -5,7 +5,7 @@ import FooterLink from "./FooterLink";
 export default function Footer() {
   return (
     <footer className="bg-neutral text-secondary-content">
-      <div className="px-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-screen-xl px-4 md:px-6 lg:px-8">
         <div className="lg:grid lg:grid-cols-2">
           <div className="py-16 border-b border-base-100 lg:border-b-0 lg:border-l lg:order-last lg:py-24 lg:pl-12">
             <div className="flex justify-center lg:hidden">
