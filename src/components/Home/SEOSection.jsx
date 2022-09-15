@@ -3,10 +3,10 @@ import Button, { ButtonTwo } from "../Button";
 
 export default function SEOSection() {
   return (
-    <section className="grid justify-items-center bg-success text-base-content">
+    <section className="grid justify-items-center bg-secondary-content text-neutral pb-8 sm:pb-0">
       <div className="h-screen w-full">
         <div className="mx-auto max-w-screen-xl px-4 md:px-6 md:flex lg:px-8">
-          <div className="relative mx-auto my-auto flex flex-col items-center">
+          <div className="relative mx-auto my-auto grid items-center">
             <div className="grid gap-2 lg:gap-4 mb-4 w-full">
               <h2 className="text-left font-semibold leading-tight lg:text-5xl text-4xl">
                 Search Engine Optimization{" "}
@@ -33,11 +33,12 @@ export default function SEOSection() {
               </div>
             </div>
             <img
-              className="w-full h-full max-w-full max-h-full mb-2"
+              className="w-full h-full max-w-full max-h-full mb-2 object-cover"
               src="/images/best_performance_seo.png"
+              alt="Perfect Google Lighthouse Score"
             ></img>
             <caption>
-              <span className="font-semibold text-xs">
+              <span className="font-semibold text-xs max-w-5xl justify-self-start">
                 A client's website rated on Google's Lighthouse Analytics (a
                 tool created by Google to assess a website's Performance, Search
                 Engine Optimization (SEO), Best Practices (Security, Design) and

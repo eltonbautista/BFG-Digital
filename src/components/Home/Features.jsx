@@ -19,7 +19,7 @@ export default function Features() {
           <FeatureChild
             headerText="Web Development & Design"
             imgAlt="Low code development concept illustration by storycode from freepik.com"
-            imgSrc="/images/web_development.png"
+            imgSrc="/images/web_development.webp"
           >
             Our expert website developers & designers strive for a highly
             performant, fully-responsive, and modern looking website design when
@@ -34,7 +34,7 @@ export default function Features() {
           <div className="flex flex-col items-center md:flex-row">
             <img
               className="h-56 object-contain md:ml-0 md:object-left "
-              src="/images/seo.png"
+              src="/images/seo.webp"
               alt="seo analytics team concept illustration by storyset from freepik.com"
               width="400px"
               height="500px"
@@ -72,7 +72,7 @@ export default function Features() {
             <FeatureChild
               headerText="Social Media Marketing & Management"
               imgAlt="hand drawn illustration of people with smartphone for marketing by pikisuperstar from freepik.com"
-              imgSrc="/images/SMM.png"
+              imgSrc="/images/SMM.webp"
             >
               Modern problems call for modern solutions, Social Media has been
               the largest craze in the past decade and it's only becoming more

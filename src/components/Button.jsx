@@ -22,7 +22,7 @@ function ButtonTwo({ title, link }) {
     <a
       href={link}
       aria-label=""
-      className="group inline-flex items-center lg:px-0 mt-4 font-semibold md:mt-1 hover:text-accent"
+      className="group inline-flex items-center lg:px-0 mt-4 font-semibold md:mt-1 hover:text-success"
     >
       {title}
       <svg

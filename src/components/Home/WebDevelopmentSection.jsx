@@ -11,22 +11,22 @@ export default function WebDevelopmentSection() {
         </h2>
         <TransitioningCard
           title="Developer & Designer Portfolio"
-          imgOneSrc="/images/best_SEO.png"
-          imgTwoSrc="/images/best_SEO_two.png"
+          imgOneSrc="/images/best_SEO.webp"
+          imgTwoSrc="/images/best_SEO_two.webp"
           link="/"
           projectType="Website Development & Search Engine Optimization (SEO)"
         />
         <TransitioningCard
           title="Pet Grooming"
-          imgOneSrc="/images/best_SEO_three.png"
-          imgTwoSrc="/images/best_SEO_four.png"
+          imgOneSrc="/images/best_SEO_three.webp"
+          imgTwoSrc="/images/best_SEO_four.webp"
           link="/"
           projectType="Website Development & Search Engine Optimization (SEO)"
         />
         <TransitioningCard
           title="SaaS Startup"
-          imgOneSrc="/images/best_SEO_five.png"
-          imgTwoSrc="/images/best_SEO_six.png"
+          imgOneSrc="/images/best_SEO_five.webp"
+          imgTwoSrc="/images/best_SEO_six.webp"
           link="/"
           projectType="Website Development & Search Engine Optimization (SEO)"
         />

@@ -5,14 +5,14 @@ export default function Hero() {
   return (
     <>
       <section className="relative mb-12">
-        <div className="max-h-screen w-full h-[10vh] overflow-hidden ">
+        <div className="max-h-screen w-full h-[15vh] overflow-hidden ">
           <video
             className="absolute w-full h-full max-h-full max-w-full object-cover "
             autoPlay
             loop
             muted
           >
-            <source src="/images/file.mp4"></source>
+            <source src="/images/calgary_web_design.mp4"></source>
           </video>
         </div>
         <div className="mx-auto h-full px-4 py-4 pt-10 md:py-40 sm:max-w-xl md:max-w-full md:px-8 lg:max-w-screen-xl lg:px-8">
