@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Navbar({ setTheme }) {
   return (
-    <header className="grid justify-items-center bg-success text-neutral top-0 sticky z-50">
-      <details className="group transition-all duration-150 h-10 open:h-72 overflow-hidden w-full md:hidden text-neutral">
+    <header className="grid justify-items-center lg:absolute z-50 bg-neutral lg:bg-transparent text-primary-content w-full">
+      <details className="group transition-all duration-150 h-10 open:h-72 overflow-hidden w-full md:hidden">
         <summary className="transition-all duration-500  flex cursor-pointer items-center rounded-lg px-4 py-2 ">
           <span className="ml-3 text-xl font-bold"> BFG Digital </span>
 

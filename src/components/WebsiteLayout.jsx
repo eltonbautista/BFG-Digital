@@ -12,7 +12,7 @@ export default function WebsiteLayout({ children }) {
   };
 
   return (
-    <div data-theme={nightMode ? "dark" : "fantasy"}>
+    <div className="relative" data-theme={nightMode ? "fantasy" : "black"}>
       <Navbar setTheme={themeChange} />
       {children}
       <Footer />

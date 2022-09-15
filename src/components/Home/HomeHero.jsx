@@ -4,11 +4,21 @@ import Button from "../Button";
 export default function Hero() {
   return (
     <>
-      <section className="">
+      <section className="relative mb-12">
+        <div className="max-h-screen w-full h-[10vh] overflow-hidden ">
+          <video
+            className="absolute w-full h-full max-h-full max-w-full object-cover "
+            autoPlay
+            loop
+            muted
+          >
+            <source src="/images/file.mp4"></source>
+          </video>
+        </div>
         <div className="mx-auto h-full px-4 py-4 pt-10 md:py-40 sm:max-w-xl md:max-w-full md:px-8 lg:max-w-screen-xl lg:px-8">
-          <div className="flex flex-col items-center justify-between lg:flex-row">
-            <div className="">
-              <div className="lg:max-w-xl">
+          <div className="flex flex-col items-center justify-between lg:flex-row z-10">
+            <div className="z-50">
+              <div className="lg:max-w-xl text-white">
                 <p className="flex text-sm uppercase mb-2 md:mb-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +71,7 @@ export default function Hero() {
                   </span>
                 </h2>
               </div>
-              <div className="mt-2 lg:mt-6 flex flex-col items-start justify-items-start md:flex-row">
+              <div className="mt-2 lg:mt-6 flex flex-col items-start justify-items-start md:flex-row text-white">
                 <Button link="/" title="Start now" />
                 <a
                   href="/"
@@ -86,7 +96,7 @@ export default function Hero() {
                 </a>
               </div>
             </div>
-            <div className="relative hidden lg:ml-32 lg:block lg:w-1/2">
+            {/* <div className="relative hidden lg:ml-32 lg:block lg:w-1/2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="mx-auto my-6 h-10 w-10 animate-bounce rounded-full p-2 lg:hidden"
@@ -133,7 +143,7 @@ export default function Hero() {
                   <div className="rounded-[6rem] h-48 w-1/2 rounded-tl-none bg-success"></div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

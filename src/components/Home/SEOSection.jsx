@@ -3,7 +3,7 @@ import Button, { ButtonTwo } from "../Button";
 
 export default function SEOSection() {
   return (
-    <section className="grid justify-items-center bg-success text-neutral">
+    <section className="grid justify-items-center bg-success text-base-content">
       <div className="h-screen w-full">
         <div className="mx-auto max-w-screen-xl px-4 md:px-6 md:flex lg:px-8">
           <div className="relative mx-auto my-auto flex flex-col items-center">
