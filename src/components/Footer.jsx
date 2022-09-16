@@ -62,13 +62,11 @@ export default function Footer() {
               <span className="bg-secondary rounded lg:h-1 lg:w-10 lg:block"></span>
 
               <div className="text-center lg:text-left">
-                <h2 className="text-2xl font-medium ">Request a Demo</h2>
+                <h2 className="text-2xl font-medium ">Let's Talk Business</h2>
 
                 <p className="max-w-md mx-auto mt-4 text-sm leading-relaxed lg:mx-0">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Veritatis, harum deserunt nesciunt praesentium, repellendus
-                  eum perspiciatis ratione pariatur a aperiam eius numquam
-                  doloribus asperiores sunt.
+                  Enter your email for any inquiries or questions about our
+                  services and we'll send you an email within one business days!
                 </p>
               </div>
 
@@ -219,7 +217,7 @@ export default function Footer() {
               </p>
 
               <p className="mt-4 text-center lg:text-left">
-                &copy; 2022 Company Name. All rights reserved.
+                Copyright &copy; 2022 BFG Digital
               </p>
               <div className="flex justify-center mt-6 gap-4 lg:justify-start">
                 <a

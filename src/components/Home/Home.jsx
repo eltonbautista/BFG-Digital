@@ -31,20 +31,29 @@ export default function Home() {
 
       <WebDevelopmentSection />
       <svg
+        className="text-neutral-content fill-current"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path d="M0,256L1440,128L1440,320L0,320Z"></path>
+      </svg>
+      {/* <svg
         className="fill-current text-secondary-content"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"
       >
         <path d="M0,96L1440,320L1440,320L0,320Z"></path>
-      </svg>
+      </svg> */}
       <SEOSection />
-      <svg
+
+      {/* <svg
         className="fill-current text-secondary-content"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"
       >
         <path d="M0,96L1440,320L1440,0L0,0Z"></path>
-      </svg>
+      </svg> */}
+
       <SMMSection />
       <ContactForm />
     </main>
