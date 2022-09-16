@@ -37,15 +37,13 @@ export default function SEOSection() {
               src="/images/best_performance_seo.webp"
               alt="Perfect Google Lighthouse Score"
             ></img>
-            <caption>
-              <span className="font-semibold text-xs max-w-5xl justify-self-start">
-                A client's website rated on Google's Lighthouse Analytics (a
-                tool created by Google to assess a website's Performance, Search
-                Engine Optimization (SEO), Best Practices (Security, Design) and
-                Accessibility. a very important metric that can indicate a
-                website's success!
-              </span>{" "}
-            </caption>
+            <span className="font-semibold text-xs max-w-5xl justify-self-start">
+              A client's website rated on Google's Lighthouse Analytics (a tool
+              created by Google to assess a website's Performance, Search Engine
+              Optimization (SEO), Best Practices (Security, Design) and
+              Accessibility. a very important metric that can indicate a
+              website's success!
+            </span>{" "}
           </div>
         </div>
       </div>

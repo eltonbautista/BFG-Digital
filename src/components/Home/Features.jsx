@@ -1,37 +1,70 @@
-import React, { Component } from "react";
+import React, { Component, useEffect, useRef } from "react";
 import Button from "../Button";
 import FeatureChild from "./FeatureChild";
 
 export default function Features() {
+  const pIntroducing = useRef(null);
+  const heading = useRef(null);
+  const fCOne = useRef(null);
+  const fCTwo = useRef(null);
+  const fCThree = useRef(null);
+
+  const elementsToAnimate = [pIntroducing, heading, fCOne, fCTwo, fCThree];
+
+  useEffect(() => {
+    let observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("xyz-in");
+          observer.unobserve(entry.target);
+        }
+      });
+    });
+
+    elementsToAnimate.forEach((el) => {
+      observer.observe(el.current);
+    });
+  }, []);
+
   return (
     <section className="mx-auto max-w-screen-xl py-12 sm:py-16 lg:py-20 text-base-content">
       <div className="mx-auto px-4 md:px-6 lg:px-8">
-        <div className="mx-auto">
-          <p className="font-semibold">INTRODUCING</p>
-          <h2 className="mt-2 text-3xl font-semibold sm:text-4xl xl:text-5xl max-w-5xl SEO ">
+        <div className="mx-auto" xyz="fade small stagger-6">
+          <p className="font-semibold" ref={pIntroducing}>
+            INTRODUCING
+          </p>
+          <h2
+            className="mt-2 text-3xl font-semibold sm:text-4xl xl:text-5xl max-w-5xl SEO "
+            ref={heading}
+          >
             Digital Services that Take Your Business to the{" "}
             <em className="border-b-4 border-success not-italic">Next Level</em>
           </h2>
           <hr className="mx-auto mt-4 h-2 w-32 border-none " />
         </div>
 
-        <div className="mt-10 grid grid-cols-1 gap-20 sm:mx-auto sm:max-w-sm md:mt-20 md:max-w-full md:text-left">
-          <FeatureChild
-            headerText="Web Development & Design"
-            imgAlt="Low code development concept illustration by storycode from freepik.com"
-            imgSrc="/images/web_development.webp"
-          >
-            Our expert website developers & designers strive for a highly
-            performant, fully-responsive, and modern looking website design when
-            crafting your personalized custom websites.
-            <span className="font-semibold">
-              {" "}
-              We only use state of the art, up-to-date technologies. We simply
-              want you, your business, and your customers to receive the best of
-              the best user experience available.
-            </span>
-          </FeatureChild>
-          <div className="flex flex-col items-center md:flex-row">
+        <div
+          className="mt-10 grid grid-cols-1 gap-20 sm:mx-auto sm:max-w-sm md:mt-20 md:max-w-full md:text-left"
+          xyz="fade small stagger-1 delay-5"
+        >
+          <div ref={fCOne}>
+            <FeatureChild
+              headerText="Web Development & Design"
+              imgAlt="Low code development concept illustration by storycode from freepik.com"
+              imgSrc="/images/web_development.webp"
+            >
+              Our expert website developers & designers strive for a highly
+              performant, fully-responsive, and modern looking website design
+              when crafting your personalized custom websites.
+              <span className="font-semibold">
+                {" "}
+                We only use state of the art, up-to-date technologies. We simply
+                want you, your business, and your customers to receive the best
+                of the best user experience available.
+              </span>
+            </FeatureChild>
+          </div>
+          <div className="flex flex-col items-center md:flex-row" ref={fCTwo}>
             <img
               className="h-56 object-contain md:ml-0 md:object-left "
               src="/images/seo.webp"
@@ -68,7 +101,10 @@ export default function Features() {
             </div>
           </div>
 
-          <div className="flex flex-col items-center justify-center md:flex-row">
+          <div
+            className="flex flex-col items-center justify-center md:flex-row"
+            ref={fCThree}
+          >
             <FeatureChild
               headerText="Social Media Marketing & Management"
               imgAlt="hand drawn illustration of people with smartphone for marketing by pikisuperstar from freepik.com"
