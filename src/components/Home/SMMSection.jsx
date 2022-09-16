@@ -13,7 +13,7 @@ export default function SSMSection() {
   }, []);
 
   return (
-    <section className="grid justify-items-center">
+    <section className="grid justify-items-center mt-8">
       <div className="my-10 grid max-w-screen-xl grid-cols-1 px-4 md:px-6 lg:px-8 lg:grid-cols-3">
         <div
           className="col-span-1 flex flex-col justify-center text-center sm:text-left md:pr-10"

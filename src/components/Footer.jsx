@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { companyName } from "../helpers/companyName";
 import Button from "./Button";
 import FooterLink from "./FooterLink";
 
@@ -62,11 +63,13 @@ export default function Footer() {
               <span className="bg-secondary rounded lg:h-1 lg:w-10 lg:block"></span>
 
               <div className="text-center lg:text-left">
-                <h2 className="text-2xl font-medium ">Let's Talk Business</h2>
+                <h2 className="text-2xl font-medium ">
+                  Subscribe to our newsletter!
+                </h2>
 
                 <p className="max-w-md mx-auto mt-4 text-sm leading-relaxed lg:mx-0">
-                  Enter your email for any inquiries or questions about our
-                  services and we'll send you an email within one business days!
+                  Enter your email to stay up to date with any of our
+                  promotions, news about, or blog posts!
                 </p>
               </div>
 
@@ -84,14 +87,8 @@ export default function Footer() {
                     placeholder="Enter your email"
                   />
                   <div className="absolute text-white">
-                    <Button link="/" title="Send Request" />
+                    <Button link="/" title="Subscribe" />
                   </div>
-                  {/* <button
-                    className="absolute p-3 transition -translate-y-1/2 bg-secondary hover:bg-secondary-focus  rounded top-1/2 right-1.5"
-                    type="button"
-                  >
-                    request
-                  </button> */}
                 </div>
               </form>
             </div>
@@ -154,7 +151,7 @@ export default function Footer() {
 
                 <nav className="mt-4">
                   <ul className="space-y-1.5 text-sm">
-                    <FooterLink url="/" title="About BFG Digital" />
+                    <FooterLink url="/" title={`About ${companyName}`} />
                     <FooterLink url="/" title="Clients" />
                     <FooterLink url="/" title="Testimonials" />
                     <FooterLink url="/" title="Contact" />
@@ -217,7 +214,7 @@ export default function Footer() {
               </p>
 
               <p className="mt-4 text-center lg:text-left">
-                Copyright &copy; 2022 BFG Digital
+                Copyright &copy; 2022 {companyName}
               </p>
               <div className="flex justify-center mt-6 gap-4 lg:justify-start">
                 <a

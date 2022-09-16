@@ -1,4 +1,5 @@
 import React, { Component, useEffect, useRef } from "react";
+import { companyName } from "../../helpers/companyName";
 import Button, { ButtonTwo } from "../Button";
 
 export default function SEOSection() {
@@ -26,7 +27,7 @@ export default function SEOSection() {
   }, []);
 
   return (
-    <section className="grid justify-items-center bg-neutral-content text-neutral pb-8 lg:pb-16 ">
+    <section className="grid justify-items-center bg-neutral-content text-neutral pb-8 lg:pb-40 ">
       <div className="h-screen w-full">
         <div className="mx-auto max-w-screen-xl px-4 md:px-6 md:flex lg:px-8">
           <div className="relative mx-auto my-auto grid items-center">
@@ -47,7 +48,8 @@ export default function SEOSection() {
                 >
                   Calgary, Search Engine Optimization is the bread and butter of
                   a successful website and it is one of the most important
-                  factors in increasing your business's traffic. At BFG Digital
+                  factors in increasing your business's traffic. At{" "}
+                  {companyName}
                   we have cultivated a particular people culture that allows our
                   SEO specialists to work closely together with our developers &
                   designers.{" "}
@@ -67,24 +69,26 @@ export default function SEOSection() {
                 </div>
               </div>
             </div>
-            <img
-              className="xyz-out w-full h-full max-w-full max-h-full mb-2 object-cover"
-              src="/images/best_performance_seo.webp"
-              alt="Perfect Google Lighthouse Score"
-              xyz=" fade-100% back-5 small perspective-3"
-              ref={image}
-            ></img>
-            <span
-              className="xyz-out font-semibold text-xs max-w-5xl justify-self-start"
-              xyz=" fade-100% back-5 left-100% perspective-3 delay-0.5"
-              ref={caption}
-            >
-              A client's website rated on Google's Lighthouse Analytics (a tool
-              created by Google to assess a website's Performance, Search Engine
-              Optimization (SEO), Best Practices (Security, Design) and
-              Accessibility. a very important metric that can indicate a
-              website's success!
-            </span>{" "}
+            <div className="pb-8">
+              <img
+                className="xyz-out w-full h-full max-w-full max-h-full mb-2 object-cover"
+                src="/images/best_performance_seo.webp"
+                alt="Perfect Google Lighthouse Score"
+                xyz=" fade-100% back-5 small perspective-3"
+                ref={image}
+              ></img>
+              <span
+                className="xyz-out font-semibold text-xs max-w-5xl justify-self-start"
+                xyz=" fade-100% back-5 left-100% perspective-3 delay-0.5"
+                ref={caption}
+              >
+                A client's website rated on Google's Lighthouse Analytics (a
+                tool created by Google to assess a website's Performance, Search
+                Engine Optimization (SEO), Best Practices (Security, Design) and
+                Accessibility. a very important metric that can indicate a
+                website's success!
+              </span>{" "}
+            </div>
           </div>
         </div>
       </div>

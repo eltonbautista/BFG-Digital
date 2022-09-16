@@ -1,11 +1,12 @@
 import React from "react";
+import { companyName } from "../helpers/companyName";
 
 export default function Navbar({ setTheme }) {
   return (
     <header className="grid justify-items-center lg:absolute z-50 bg-neutral lg:bg-transparent text-primary-content w-full">
       <details className="group transition-all duration-150 h-10 open:h-72 overflow-hidden w-full md:hidden">
         <summary className="transition-all duration-500  flex cursor-pointer items-center rounded-lg px-4 py-2 ">
-          <span className="ml-3 text-xl font-bold"> BFG Digital </span>
+          <span className="ml-3 text-xl font-semibold"> {companyName} </span>
 
           <span className="ml-auto grid grid-cols-2 gap-4">
             <svg
@@ -56,7 +57,7 @@ export default function Navbar({ setTheme }) {
       </details>
       <nav className="navbar max-w-screen-xl hidden md:flex">
         <div className="flex-1">
-          <a className="btn btn-ghost normal-case text-xl">BFG Digital</a>
+          <a className="btn btn-ghost normal-case text-xl">{companyName}</a>
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal p-0 hidden md:flex">
@@ -88,7 +89,7 @@ export default function Navbar({ setTheme }) {
             </label>
             <ul
               tabIndex="0"
-              className="menu dropdown-content p-2 shadow bg-base-100 rounded-box w-64 mt-4"
+              className="menu dropdown-content p-2 shadow bg-neutral rounded-box w-64 mt-4"
             >
               <li>
                 <a>Web Development & Design</a>

@@ -1,6 +1,7 @@
 import React, { Component, useEffect, useRef } from "react";
 import ValuesChild from "./ValuesChild";
 import intersectionAnimator from "../../helpers/intersectionAnimator";
+import { companyName } from "../../helpers/companyName";
 
 export default function AboutMe() {
   const heading = useRef(null);
@@ -18,8 +19,8 @@ export default function AboutMe() {
     image,
     headingTwo,
     valueOne,
-    valueTwo,
-    valueThree,
+    // valueTwo,
+    // valueThree,
   ];
 
   useEffect(() => {
@@ -30,7 +31,7 @@ export default function AboutMe() {
     <section className="bg-neutral-content text-neutral">
       <div className="py-6 sm:py-8 lg:py-12 ">
         <div className="mx-auto max-w-screen-xl px-4 md:px-6 lg:px-8">
-          <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
+          <div className="grid gap-8 lg:grid-cols-2 lg:gap-12">
             <div
               className="md:pt-8 lg:flex lg:flex-col lg:justify-center"
               xyz="stagger fade down-100% back-5"
@@ -48,7 +49,7 @@ export default function AboutMe() {
               <p className="mb-4 sm:text-lg xyz-out" ref={pOne}>
                 Our team loves Calgary, but more importantly, we are a group of
                 developers and designers who love building value for other
-                businesses alike. And so, we created BFG Digital.
+                businesses alike. And so, we created {companyName}.
               </p>
               <p className="mb-6 sm:text-lg xyz-out" ref={pTwo}>
                 We are a team of developers and designers who have a true
@@ -66,17 +67,17 @@ export default function AboutMe() {
                 <img
                   src="/images/calgary_website_design.webp"
                   loading="lazy"
-                  alt="portrait of BFG Digital owner: Elton Bautista"
+                  alt={`The city of Calgary where ${companyName} is based`}
                   className="h-full w-full object-cover object-center"
                 />
               </div>
             </div>
-            <div className="md:col-span-2">
+            <div className="lg:col-span-2">
               <div className="container mx-auto w-full max-w-screen-xl border-t border-neutral border-solid ">
                 <div
-                  className="w-full pt-10 pb-5 xyz-out"
+                  className="grid w-full pt-10 pb-5 xyz-out"
                   ref={headingTwo}
-                  xyz="fade-100% small delay-9"
+                  xyz="fade-100% small delay-0.5"
                 >
                   <h3 className="text-center text-2xl md:text-3xl font-semibold">
                     Our Founding Values
@@ -88,41 +89,29 @@ export default function AboutMe() {
                   </q>
                 </div>
                 <div
-                  className="flex flex-col lg:flex-row md:gap-6"
-                  xyz="fade-100% small stagger-1 delay-10"
+                  className="xyz-out flex flex-col lg:flex-row md:gap-6"
+                  xyz="fade-100% small stagger-3 delay-2"
+                  ref={valueOne}
                 >
-                  <div
-                    ref={valueOne}
-                    className="w-full p-4 px-0 text-left lg:w-1/3 xyz-out"
-                  >
-                    <ValuesChild headerText="INNOVATE">
-                      BFG Digital embraces change. We understand that times are
-                      rapidly changing and we take the proper measures necessary
-                      to provide our clients with the best value possible.
-                    </ValuesChild>
-                  </div>
-                  <div
-                    ref={valueTwo}
-                    className="w-full p-4 px-0 text-left lg:w-1/3 xyz-out"
-                  >
-                    <ValuesChild headerText="GROW">
-                      As a business, we understand how critical growth is. With
-                      our dedicated and passionate team, we are determined to
-                      create a stunning website for your business that will set
-                      you apart for the rest.
-                    </ValuesChild>
-                  </div>
-                  <div
-                    ref={valueThree}
-                    className="w-full p-4 px-0 text-left lg:w-1/3 xyz-out"
-                  >
-                    <ValuesChild headerText="SERVE">
-                      We know how important customer service is, no really, we
-                      do. And so, when you choose to work with BFG Digital we
-                      promise a stress-free, fun, and valuable learning
-                      experience.
-                    </ValuesChild>
-                  </div>
+                  <ValuesChild headerText="INNOVATE">
+                    {companyName} embraces change. We understand that times are
+                    rapidly changing and we take the proper measures necessary
+                    to provide our clients with the best value possible.
+                  </ValuesChild>
+
+                  <ValuesChild headerText="GROW">
+                    As a business, we understand how critical growth is. With
+                    our dedicated and passionate team, we are determined to
+                    create a stunning website for your business that will set
+                    you apart for the rest.
+                  </ValuesChild>
+
+                  <ValuesChild headerText="SERVE">
+                    We know how important customer service is, no really, we do.
+                    And so, when you choose to work with {companyName} we
+                    promise a stress-free, fun, and valuable learning
+                    experience.
+                  </ValuesChild>
                 </div>
               </div>
             </div>

@@ -3,7 +3,7 @@ import Button from "../Button";
 
 export default function FeatureChild({ imgSrc, imgAlt, headerText, children }) {
   return (
-    <div className="flex flex-col items-center md:flex-row w-full">
+    <div className="flex flex-col items-center md:flex-row w-full gap-x-6">
       <img
         className="h-56 object-cover md:order-2 md:object-left"
         src={imgSrc}

@@ -2,6 +2,7 @@ import React, { Component, useEffect, useRef } from "react";
 import Button from "../Button";
 import FeatureChild from "./FeatureChild";
 import intersectionAnimator from "../../helpers/intersectionAnimator";
+import { companyName } from "../../helpers/companyName";
 
 export default function Features() {
   const pIntroducing = useRef(null);
@@ -55,7 +56,7 @@ export default function Features() {
             </FeatureChild>
           </div>
           <div
-            className="flex flex-col items-center md:flex-row xyz-out"
+            className="flex flex-col items-center md:flex-row xyz-out gap-x-6"
             ref={fCTwo}
           >
             <img
@@ -77,7 +78,7 @@ export default function Features() {
                   factors for generating traffic and increasing conversion for
                   your business.
                 </span>{" "}
-                Here at BFG Digital, we are serious about our goal of being{" "}
+                Here at {companyName}, we are serious about our goal of being{" "}
                 <span className="font-semibold">
                   Calgary's best Search Engine Optimization & Website
                   Development Company.

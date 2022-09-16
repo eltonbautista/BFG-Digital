@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { companyName } from "../../helpers/companyName";
 
 export default function ContactForm() {
   return (
@@ -9,7 +10,7 @@ export default function ContactForm() {
       <div className="grid lg:grid-cols-2 w-full justify-items-center max-w-screen-xl px-4 md:px-6 lg:px-8">
         <div className=" lg:max-w-md SEO mb-4 lg:mb-0 lg:justify-self-end">
           <h3 className="text-base lg:text-lg xl:text-xl lg:text-end">
-            Let's talk about how BFG Digital can generate value for your
+            Let's talk about how {companyName} can generate value for your
             business - a conversation never hurt{" "}
             <span className="border-b-2 border-accent">anyone</span>.
           </h3>
