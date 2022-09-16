@@ -61,7 +61,7 @@ export default function AboutMe() {
             <div>
               <div
                 className="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-auto xyz-out"
-                xyz="duration-6 short-100% wide-25% delay-10"
+                xyz="duration-6 fade short-100% delay-10"
                 ref={image}
               >
                 <img

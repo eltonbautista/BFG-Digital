@@ -17,7 +17,7 @@ export default function SSMSection() {
       <div className="my-10 grid max-w-screen-xl grid-cols-1 px-4 md:px-6 lg:px-8 lg:grid-cols-3">
         <div
           className="col-span-1 flex flex-col justify-center text-center sm:text-left md:pr-10"
-          xyz="fade left-100% back-5 stagger-2"
+          xyz="fade left-50% back-5 stagger-2"
           ref={descriptionContainer}
         >
           <h2 className="mb-6 text-3xl sm:text-4xl lg:text-5xl font-semibold xyz-nested xyz-out">
