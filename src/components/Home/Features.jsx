@@ -1,6 +1,7 @@
 import React, { Component, useEffect, useRef } from "react";
 import Button from "../Button";
 import FeatureChild from "./FeatureChild";
+import intersectionAnimator from "../../helpers/intersectionAnimator";
 
 export default function Features() {
   const pIntroducing = useRef(null);
@@ -12,29 +13,18 @@ export default function Features() {
   const elementsToAnimate = [pIntroducing, heading, fCOne, fCTwo, fCThree];
 
   useEffect(() => {
-    let observer = new IntersectionObserver((entries, observer) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("xyz-in");
-          observer.unobserve(entry.target);
-        }
-      });
-    });
-
-    elementsToAnimate.forEach((el) => {
-      observer.observe(el.current);
-    });
+    intersectionAnimator(elementsToAnimate);
   }, []);
 
   return (
     <section className="mx-auto max-w-screen-xl py-12 sm:py-16 lg:py-20 text-base-content">
       <div className="mx-auto px-4 md:px-6 lg:px-8">
         <div className="mx-auto" xyz="fade small stagger-6">
-          <p className="font-semibold" ref={pIntroducing}>
+          <p className="font-semibold xyz-out" ref={pIntroducing}>
             INTRODUCING
           </p>
           <h2
-            className="mt-2 text-3xl font-semibold sm:text-4xl xl:text-5xl max-w-5xl SEO "
+            className="mt-2 text-3xl font-semibold sm:text-4xl xl:text-5xl max-w-5xl SEO xyz-out"
             ref={heading}
           >
             Digital Services that Take Your Business to the{" "}
@@ -45,9 +35,9 @@ export default function Features() {
 
         <div
           className="mt-10 grid grid-cols-1 gap-20 sm:mx-auto sm:max-w-sm md:mt-20 md:max-w-full md:text-left"
-          xyz="fade small stagger-1 delay-5"
+          xyz="fade-100% small stagger-0 delay-5"
         >
-          <div ref={fCOne}>
+          <div ref={fCOne} className="xyz-out">
             <FeatureChild
               headerText="Web Development & Design"
               imgAlt="Low code development concept illustration by storycode from freepik.com"
@@ -64,7 +54,10 @@ export default function Features() {
               </span>
             </FeatureChild>
           </div>
-          <div className="flex flex-col items-center md:flex-row" ref={fCTwo}>
+          <div
+            className="flex flex-col items-center md:flex-row xyz-out"
+            ref={fCTwo}
+          >
             <img
               className="h-56 object-contain md:ml-0 md:object-left "
               src="/images/seo.webp"
@@ -102,7 +95,7 @@ export default function Features() {
           </div>
 
           <div
-            className="flex flex-col items-center justify-center md:flex-row"
+            className="flex flex-col items-center justify-center md:flex-row xyz-out"
             ref={fCThree}
           >
             <FeatureChild
