@@ -8,10 +8,12 @@ export default function Navbar({ setTheme }) {
         <summary className="transition-all duration-500  flex cursor-pointer items-center rounded-lg px-4 py-2 ">
           <span className="sm:max-w-[200px] ">
             <img
-              className="w-full h-full max-w-full max-h-full hidden sm:block"
+              className="w-full h-full max-w-full max-h-full hidden sm:block object-cover"
               width="200px"
               height="200px"
               src="/images/bfg_interactive_logo.png"
+              alt="BFG Interactive Logo"
+              loading="lazy"
             ></img>
             <span className="sm:hidden font-normal text-sm">
               BFG | Interactive
@@ -69,11 +71,14 @@ export default function Navbar({ setTheme }) {
         <div className="flex-1">
           <a href="/" className="btn btn-ghost normal-case text-xl">
             <span className="ml-3 text-xl font-semibold max-w-[250px]">
+              <span className="sr-only">BFG Interactive Logo</span>
               <img
-                className="w-full h-full max-w-full max-h-full"
+                className="w-full h-full max-w-full max-h-full object-cover"
                 width="250px"
                 height="250px"
                 src="/images/bfg_interactive_logo.png"
+                alt="BFG Interactive Logo"
+                loading="lazy"
               ></img>
             </span>
           </a>

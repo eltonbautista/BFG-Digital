@@ -66,11 +66,11 @@ export default function Features() {
               width="400px"
               height="500px"
             />
-            <div className="">
+            <div className="mt-2">
               <h3 className="text-2xl md:text-3xl font-semibold">
                 Search Engine Optimization (SEO)
               </h3>
-              <p className="mt-6 text-base text-base-content max-w-4xl">
+              <p className="mt-2 text-base text-base-content max-w-4xl">
                 What's the point of a beautifully designed website if you're not
                 receiving any traffic?{" "}
                 <span className="font-semibold">

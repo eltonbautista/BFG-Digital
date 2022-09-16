@@ -22,6 +22,10 @@ export default function Hero() {
               <img
                 className=" w-fullh-full z-50 object-cover"
                 src="/images/bfg_interactive_logo.png"
+                alt="BFG Interactive Logo"
+                loading="lazy"
+                width="766px"
+                height="176px"
               ></img>
             </div>
             <div className="z-50 lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-2">

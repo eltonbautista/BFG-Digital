@@ -11,9 +11,9 @@ export default function FeatureChild({ imgSrc, imgAlt, headerText, children }) {
         width="400px"
         height="500px"
       />
-      <div className="">
+      <div className="mt-2">
         <h3 className="text-2xl md:text-3xl font-semibold">{headerText}</h3>
-        <p className="mt-6 text-base text-base-content max-w-4xl">{children}</p>
+        <p className="mt-2 text-base text-base-content max-w-4xl">{children}</p>
         <Button
           color="secondary"
           bg="accent"

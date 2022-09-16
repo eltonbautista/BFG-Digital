@@ -28,12 +28,12 @@ export default function SEOSection() {
 
   return (
     <section className="grid justify-items-center bg-neutral-content text-neutral pb-8 lg:pb-40 ">
-      <div className="h-screen w-full">
+      <div className="w-full">
         <div className="mx-auto max-w-screen-xl px-4 md:px-6 md:flex lg:px-8">
           <div className="relative mx-auto my-auto grid items-center">
             <div className="grid gap-2 lg:gap-4 mb-4 w-full">
               <h2
-                className="text-left font-semibold leading-tight lg:text-5xl text-4xl xyz-out"
+                className="text-left font-semibold leading-tight text-3xl md:text-4xl lg:text-5xl xyz-out"
                 ref={heading}
                 xyz="fade-100% small"
               >
@@ -69,7 +69,7 @@ export default function SEOSection() {
                 </div>
               </div>
             </div>
-            <div className="pb-8">
+            <div className="">
               <img
                 className="xyz-out w-full h-full max-w-full max-h-full mb-2 object-cover"
                 src="/images/best_performance_seo.webp"

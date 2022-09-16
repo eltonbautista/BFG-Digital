@@ -19,7 +19,7 @@ export default function WebDevelopmentSection() {
   return (
     <section className="grid">
       <div
-        className="grid lg:grid-cols-3 gap-4 max-w-screen-xl mx-auto px-4 md:px-6 lg:px-8 w-full"
+        className="grid lg:grid-cols-3 lg:gap-4 max-w-screen-xl mx-auto px-4 md:px-6 lg:px-8 w-full"
         xyz="stagger-2 fade back-5 left-100% perspective-3"
       >
         <h2
@@ -55,7 +55,10 @@ export default function WebDevelopmentSection() {
             projectType="Website Development & Search Engine Optimization (SEO)"
           />
         </div>
-        <div className="lg:col-span-3 grid gap-2 max-w-5xl xyz-out" ref={cTA}>
+        <div
+          className="lg:col-span-3 grid gap-2 max-w-5xl xyz-out mt-4 lg:pt-0 border-t-2 border-primary p-4 lg:p-0 lg:border-t-0"
+          ref={cTA}
+        >
           <p className="">
             When it comes to creating an aesthetically pleasing and highly
             performant website for your business, our developers and designers

@@ -28,28 +28,13 @@ export default function TransitioningCard({
             width="200px"
             height="200px"
           />
-          {/* <svg
-            className="group-hover:animate-ping group-hover:opacity-30 peer-hover:opacity-0 pointer-events-none absolute inset-x-0 bottom-5 mx-auto text-3xl transition-opacity"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-            role="img"
-            width="1em"
-            height="1em"
-            preserveAspectRatio="xMidYMid meet"
-            viewBox="0 0 32 32"
-          >
-            <path
-              fill="currentColor"
-              d="M2 10a4 4 0 0 1 4-4h20a4 4 0 0 1 4 4v10a4 4 0 0 1-2.328 3.635a2.996 2.996 0 0 0-.55-.756l-8-8A3 3 0 0 0 14 17v7H6a4 4 0 0 1-4-4V10Zm14 19a1 1 0 0 0 1.8.6l2.7-3.6H25a1 1 0 0 0 .707-1.707l-8-8A1 1 0 0 0 16 17v12Z"
-            />
-          </svg> */}
           <span className="absolute top-0 left-0 m-2 rounded-full  px-2 py-1 text-center text-sm font-medium sr-only">
             {projectType}
           </span>
         </a>
-        <div className="mt-4 px-5 pb-5">
+        <div className="md:mt-4">
           <a href={link}>
-            <h3 className="text-xl tracking-tight">{title}</h3>
+            <p className="text-xl lg:text-2xl tracking-tight">{title}</p>
           </a>
         </div>
       </div>
