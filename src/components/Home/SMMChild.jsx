@@ -7,7 +7,7 @@ export default function SMMChild({ step, headerText, text }) {
         {step}
       </div>
       <div className="">
-        <h3 className="text-xl font-semibold">{headerText}</h3>
+        <h3 className="text-xl font-medium">{headerText}</h3>
         <p className="mt-3">{text}</p>
       </div>
     </div>

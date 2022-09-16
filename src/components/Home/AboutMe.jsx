@@ -39,7 +39,7 @@ export default function AboutMe() {
               <div className="xyz-out" ref={heading}>
                 <p className="font-bold md:text-left ">Who we are</p>
 
-                <h3 className="mb-4 text-2xl md:text-3xl font-semibold text-neutral md:mb-6 md:text-left ">
+                <h3 className="mb-4 text-2xl md:text-3xl font-medium text-neutral md:mb-6 md:text-left ">
                   A Calgary based website design and development team. Our goal
                   is simple: we create attractive and highly performant websites
                   that help drive traffic for your business!
@@ -79,7 +79,7 @@ export default function AboutMe() {
                   ref={headingTwo}
                   xyz="fade-100% small delay-0.5"
                 >
-                  <h3 className="text-center text-2xl md:text-3xl font-semibold">
+                  <h3 className="text-center text-2xl md:text-3xl font-medium">
                     Our Founding Values
                   </h3>
                   <q className="mx-auto mb-4 max-w-xl py-2 text-center text-xs sm:text-sm ">

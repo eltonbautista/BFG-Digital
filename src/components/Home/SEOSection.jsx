@@ -33,7 +33,7 @@ export default function SEOSection() {
           <div className="relative mx-auto my-auto grid items-center">
             <div className="grid gap-2 lg:gap-4 mb-4 w-full">
               <h2
-                className="text-left font-semibold leading-tight text-3xl md:text-4xl lg:text-5xl xyz-out"
+                className="text-left font-medium leading-tight text-3xl md:text-4xl lg:text-5xl xyz-out"
                 ref={heading}
                 xyz="fade-100% small"
               >
@@ -53,7 +53,7 @@ export default function SEOSection() {
                   we have cultivated a particular people culture that allows our
                   SEO specialists to work closely together with our developers &
                   designers.{" "}
-                  <span className="font-semibold">
+                  <span className="font-medium">
                     This allows us to maintain an organized and strategic
                     approach when dealing with Search Engine Optimization, which
                     results in maximal ranking value.
@@ -62,7 +62,7 @@ export default function SEOSection() {
                 <div
                   className="flex flex-col sm:flex-row sm:space-x-4 sm:px-0 xyz-out"
                   ref={button}
-                  xyz="fade-100% flip-up flip-left delay-2"
+                  xyz="fade-100% flip-up flip-left delay-4"
                 >
                   <Button title="Start Now" />
                   {/* <ButtonTwo link="/" title="" /> */}
@@ -77,17 +77,17 @@ export default function SEOSection() {
                 xyz=" fade-100% back-5 small perspective-3"
                 ref={image}
               ></img>
-              <span
-                className="xyz-out font-semibold text-xs max-w-5xl justify-self-start"
+              <p
+                className="xyz-out font-medium text-xs max-w-4xl justify-self-start"
                 xyz=" fade-100% back-5 left-100% perspective-3 delay-0.5"
                 ref={caption}
               >
                 A client's website rated on Google's Lighthouse Analytics (a
                 tool created by Google to assess a website's Performance, Search
                 Engine Optimization (SEO), Best Practices (Security, Design) and
-                Accessibility. a very important metric that can indicate a
-                website's success!
-              </span>{" "}
+                Accessibility). Lighthouse is considered as a very important
+                metric for indicating a website's success!
+              </p>
             </div>
           </div>
         </div>

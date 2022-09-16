@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Button from "../Button";
+import { companyName } from "../../helpers/companyName";
 
 export default function Hero() {
   return (
@@ -45,10 +46,10 @@ export default function Hero() {
                   </svg>
                   Calgary Website Design For Enabling Business Success
                 </p>
-                <h1 className="mb-6 max-w-xl text-4xl leading-snug tracking-tight md:text-6xl xxl:text-7xl sm:leading-snug uppercase">
+                <h1 className="mb-6 max-w-xl text-4xl leading-snug tracking-tight md:text-7xl xxl:text-8xl sm:leading-snug">
                   Websites that generate growth for{" "}
                   <span className="my-1 inline-block border-b-8 border-primary">
-                    your business
+                    your business.
                   </span>
                   <span className="sr-only">
                     Best Website Developer Calgary Best Website Design Calgary
@@ -70,9 +71,10 @@ export default function Hero() {
                   </span>
                 </h1>
                 <h2>
-                  Our expert website designers and developers specialize in
-                  search engine optimization to increase your website's traffic,
-                  customer conversion, and ultimately, your quality of life.{" "}
+                  Our professional website designers and developers are experts
+                  in crafting gorgeous, and highly performant websites. In
+                  combination with our skilled SEO specialists, {companyName} is
+                  confident in providing exceptional value for your business.{" "}
                   <span className="sr-only">
                     Search Engine Optimization SEO Search Engine Optimization
                     SEO Search Engine Optimization SEO Search Engine
@@ -87,7 +89,7 @@ export default function Hero() {
                 <a
                   href="/"
                   aria-label=""
-                  className="group inline-flex items-center uppercase text-sm px-4 pl-0 self-center md:pl-4 mt-4 md:mt-1 hover:text-success"
+                  className="group inline-flex items-center uppercase text-sm px-4 pl-0 self-center md:pl-4 mt-4 md:mt-1 hover:text-success font-medium"
                 >
                   How our websites generate business for you
                   <svg

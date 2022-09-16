@@ -21,14 +21,14 @@ export default function Features() {
     <section className="mx-auto max-w-screen-xl py-12 sm:py-16 lg:py-20 text-base-content">
       <div className="mx-auto px-4 md:px-6 lg:px-8">
         <div className="mx-auto" xyz="fade small stagger-6">
-          <p className="font-semibold xyz-out" ref={pIntroducing}>
-            INTRODUCING
+          <p className="font-medium uppercase xyz-out" ref={pIntroducing}>
+            {companyName} proudly presents
           </p>
           <h2
-            className="mt-2 text-3xl font-semibold sm:text-4xl xl:text-5xl max-w-5xl SEO xyz-out"
+            className="mt-2 text-3xl font-medium sm:text-4xl xl:text-5xl max-w-5xl SEO xyz-out"
             ref={heading}
           >
-            Digital Services that Take Your Business to the{" "}
+            Our Array of Services Guaranteed to Take Your Business to the{" "}
             <em className="border-b-4 border-success not-italic">Next Level</em>
           </h2>
           <hr className="mx-auto mt-4 h-2 w-32 border-none " />
@@ -47,7 +47,7 @@ export default function Features() {
               Our expert website developers & designers strive for a highly
               performant, fully-responsive, and modern looking website design
               when crafting your personalized custom websites.
-              <span className="font-semibold">
+              <span className="font-medium">
                 {" "}
                 We only use state of the art, up-to-date technologies. We simply
                 want you, your business, and your customers to receive the best
@@ -67,29 +67,29 @@ export default function Features() {
               height="500px"
             />
             <div className="mt-2">
-              <h3 className="text-2xl md:text-3xl font-semibold">
+              <h3 className="text-2xl md:text-3xl font-medium">
                 Search Engine Optimization (SEO)
               </h3>
               <p className="mt-2 text-base text-base-content max-w-4xl">
                 What's the point of a beautifully designed website if you're not
                 receiving any traffic?{" "}
-                <span className="font-semibold">
+                <span className="font-medium">
                   Search Engine Optimization (SEO) is one of the largest driving
                   factors for generating traffic and increasing conversion for
                   your business.
                 </span>{" "}
                 Here at {companyName}, we are serious about our goal of being{" "}
-                <span className="font-semibold">
+                <span className="font-medium">
                   Calgary's best Search Engine Optimization & Website
                   Development Company.
                 </span>{" "}
                 We've developed a set of{" "}
-                <span className="font-semibold">
+                <span className="font-medium">
                   extremely powerful and proven techniques
                 </span>{" "}
-                to rank <span className="font-semibold">your </span>
+                to rank <span className="font-medium">your </span>
                 website at the{" "}
-                <span className="font-semibold">top of Google</span>.
+                <span className="font-medium">top of Google</span>.
               </p>
               <Button link="/" title="Learn more" />
             </div>
@@ -107,7 +107,7 @@ export default function Features() {
               Modern problems call for modern solutions, Social Media has been
               the largest craze in the past decade and it's only becoming more
               prominent day by day.{" "}
-              <span className="font-semibold">
+              <span className="font-medium">
                 Reaching a greater audience and increasing customer conversions
                 for your business shouldn't be difficult - and it doesn't have
                 to be.

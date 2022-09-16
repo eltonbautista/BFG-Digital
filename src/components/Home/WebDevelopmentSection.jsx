@@ -23,7 +23,7 @@ export default function WebDevelopmentSection() {
         xyz="stagger-2 fade back-5 left-100% perspective-3"
       >
         <h2
-          className="lg:col-span-3 w-full justify-self-center text-base-content text-3xl sm:text-4xl font-semibold xl:text-5xl mb-4 lg:mb-10 SEO xyz-out"
+          className="lg:col-span-3 w-full justify-self-center text-base-content text-3xl sm:text-4xl font-medium xl:text-5xl mb-4 lg:mb-10 SEO xyz-out"
           ref={heading}
         >
           Web Development & Web Design
@@ -63,14 +63,14 @@ export default function WebDevelopmentSection() {
             When it comes to creating an aesthetically pleasing and highly
             performant website for your business, our developers and designers
             know no boundaries. And so, we{" "}
-            <span className="font-semibold">don't</span> use any CMS or Website
+            <span className="font-medium">don't</span> use any CMS or Website
             Building templates to craft our work. This results in{" "}
             <span className="border-b-2 border-success">you</span> receiving a{" "}
-            <span className="font-semibold">
+            <span className="font-medium">
               customized and uniquely inspired
             </span>{" "}
             website -{" "}
-            <span className="font-semibold">
+            <span className="font-medium">
               this is what sets us apart from the rest of the industry.
             </span>
           </p>
