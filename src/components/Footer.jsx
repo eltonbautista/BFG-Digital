@@ -216,6 +216,7 @@ export default function Footer() {
               <p className="mt-4 text-center lg:text-left">
                 Copyright &copy; 2022 {companyName}
               </p>
+              {/* <p></p> */}
               <div className="flex justify-center mt-6 gap-4 lg:justify-start">
                 <a
                   className=" transition hover:/75"

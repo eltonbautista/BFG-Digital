@@ -60,7 +60,7 @@ export default function Features() {
             ref={fCTwo}
           >
             <img
-              className="h-56 object-contain md:ml-0 md:object-left "
+              className="h-56 md:ml-0 md:object-left object-cover"
               src="/images/seo.webp"
               alt="seo analytics team concept illustration by storyset from freepik.com"
               width="400px"
