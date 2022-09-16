@@ -28,7 +28,7 @@ export default function Features() {
             className="mt-2 text-3xl font-medium sm:text-4xl xl:text-5xl max-w-5xl SEO xyz-out"
             ref={heading}
           >
-            Our Array of Services Guaranteed to Take Your Business to the{" "}
+            Digital Services Guaranteed to Take Your Business to the{" "}
             <em className="border-b-4 border-primary not-italic">Next Level</em>
           </h2>
           <hr className="mx-auto mt-4 h-2 w-32 border-none " />
@@ -44,14 +44,15 @@ export default function Features() {
               imgAlt="Low code development concept illustration by storycode from freepik.com"
               imgSrc="/images/web_development.webp"
             >
-              Our expert website developers & designers strive for a highly
-              performant, fully-responsive, and modern looking website design
+              Our expert website designers & developers strive for a highly
+              performant, fully-responsive, and modernly styled website design
               when crafting your personalized custom websites.
               <span className="font-medium">
                 {" "}
-                We only use state of the art, up-to-date technologies. We simply
-                want you, your business, and your customers to receive the best
-                of the best user experience available.
+                {companyName} only uses state of the art, and up-to-date
+                technologies when building your websites. We simply want you,
+                your business, and your customers to receive the best of the
+                best user experience available.
               </span>
             </FeatureChild>
           </div>
@@ -76,7 +77,7 @@ export default function Features() {
                 <span className="font-medium">
                   Search Engine Optimization (SEO) is one of the largest driving
                   factors for generating traffic and increasing conversion for
-                  your business.
+                  your business!
                 </span>{" "}
                 Here at {companyName}, we are serious about our goal of being{" "}
                 <span className="font-medium">
@@ -105,8 +106,8 @@ export default function Features() {
               imgSrc="/images/SMM.webp"
             >
               Modern problems call for modern solutions, Social Media has been
-              the largest craze in the past decade and it's only becoming more
-              prominent day by day.{" "}
+              the biggest craze in the past decade and it's only becoming more
+              prominent every single day.{" "}
               <span className="font-medium">
                 Reaching a greater audience and increasing customer conversions
                 for your business shouldn't be difficult - and it doesn't have

@@ -12,16 +12,7 @@ export default function AboutMe() {
   const valueOne = useRef(null);
   const valueTwo = useRef(null);
   const valueThree = useRef(null);
-  const elementsToAnimate = [
-    heading,
-    pOne,
-    pTwo,
-    image,
-    headingTwo,
-    valueOne,
-    // valueTwo,
-    // valueThree,
-  ];
+  const elementsToAnimate = [heading, pOne, pTwo, image, headingTwo, valueOne];
 
   useEffect(() => {
     intersectionAnimator(elementsToAnimate);
@@ -40,22 +31,26 @@ export default function AboutMe() {
                 <p className="font-bold md:text-left ">Who we are</p>
 
                 <h3 className="mb-4 text-2xl md:text-3xl font-medium text-neutral md:mb-6 md:text-left ">
-                  A Calgary based website design and development team. Our goal
-                  is simple: we create attractive and highly performant websites
-                  that help drive traffic for your business!
+                  {companyName} is a Calgary based website design and
+                  development team. Our goal is simple: to create attractive and
+                  highly performant websites to help drive traffic to and for
+                  your business!
                 </h3>
               </div>
 
               <p className="mb-4 sm:text-lg xyz-out" ref={pOne}>
-                Our team loves Calgary, but more importantly, we are a group of
-                developers and designers who love building value for other
-                businesses alike. And so, we created {companyName}.
+                Our team loves Calgary, we are a group of developers and
+                designers who love creating value for other businesses alike.
+                And so, we created {companyName}.
               </p>
               <p className="mb-6 sm:text-lg xyz-out" ref={pTwo}>
-                We are a team of developers and designers who have a true
-                passion for their craft, understand the importance of not
-                cutting corners, and love providing exceptional solutions and
-                value to our clients.
+                {/* We are a group of individuals who have a true passion for their
+                craft, understand the importance of not cutting corners, and
+                love providing exceptional solutions and value to our clients. */}
+                We are truly passionate about the work that we do. We can
+                proudly say that we put the time, effort, and dedication into
+                each and every single project that we embark on. Why? Because
+                it's the only way that makes sense to us.
               </p>
             </div>
             <div>
@@ -85,7 +80,8 @@ export default function AboutMe() {
                   <q className="mx-auto mb-4 max-w-xl py-2 text-center text-xs sm:text-sm ">
                     There is something fundamentally wrong with the process if
                     the cornerstones of our society are afraid to trust in one
-                    another. We need to be the change we want to see.
+                    another. We need to be the change we want to see in this
+                    world.
                   </q>
                 </div>
                 <div
@@ -95,22 +91,23 @@ export default function AboutMe() {
                 >
                   <ValuesChild headerText="INNOVATE">
                     {companyName} embraces change. We understand that times are
-                    rapidly changing and we take the proper measures necessary
-                    to provide our clients with the best value possible.
+                    rapidly changing and we make sure to take the measures
+                    necessary to provide our clients with the best value
+                    possible. Period.
                   </ValuesChild>
 
                   <ValuesChild headerText="GROW">
-                    As a business, we understand how critical growth is. With
-                    our dedicated and passionate team, we are determined to
-                    create a stunning website for your business that will set
-                    you apart for the rest.
+                    As a growing business ourself, we understand how critical
+                    growth is. With our dedicated and passionate team, we are
+                    determined to provide a stunning website design for your
+                    business that will surely set you apart from the rest.
                   </ValuesChild>
 
                   <ValuesChild headerText="SERVE">
                     We know how important customer service is, no really, we do.
-                    And so, when you choose to work with {companyName} we
-                    promise a stress-free, fun, and valuable learning
-                    experience.
+                    And so, when you choose to work with {companyName} we make
+                    sure to impart you with a stress-free, fun, and valuable
+                    learning experience.
                   </ValuesChild>
                 </div>
               </div>

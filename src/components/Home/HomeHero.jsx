@@ -74,7 +74,8 @@ export default function Hero() {
                   Our professional website designers and developers are experts
                   in crafting gorgeous, and highly performant websites. In
                   combination with our skilled SEO specialists, {companyName} is
-                  confident in providing exceptional value for your business.{" "}
+                  confident in providing exceptional value for you and your
+                  customers!{" "}
                   <span className="sr-only">
                     Search Engine Optimization SEO Search Engine Optimization
                     SEO Search Engine Optimization SEO Search Engine
