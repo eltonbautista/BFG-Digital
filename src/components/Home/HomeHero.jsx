@@ -19,9 +19,9 @@ export default function Hero() {
 
         <div className="mx-auto h-full px-4 py-4 pt-10 md:py-40 sm:max-w-xl md:max-w-full md:px-8 lg:max-w-screen-xl lg:px-8">
           <div className="lg:grid lg:grid-cols-2 flex flex-col items-center justify-between lg:flex-row z-10">
-            <div className="grid w-full min-h-full z-50 lg:col-start-2 lg:col-end-3 lg:row-start-1 lg:row-end-2 mb-4 lg:mb-0">
+            <div className="grid w-full min-h-full z-20 lg:col-start-2 lg:col-end-3 lg:row-start-1 lg:row-end-2 mb-4 lg:mb-0">
               <img
-                className=" w-fullh-full z-50 object-cover"
+                className=" w-fullh-full z-20 object-cover"
                 src="/images/bfg_interactive_logo.png"
                 alt="BFG Interactive Logo"
                 loading="lazy"
@@ -29,7 +29,7 @@ export default function Hero() {
                 height="176px"
               ></img>
             </div>
-            <div className="z-50 lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-2">
+            <div className="z-20 lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-2">
               <div className="lg:max-w-xl text-[#CCCCCC]">
                 <p className="flex text-sm uppercase mb-2 md:mb-0">
                   <svg

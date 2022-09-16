@@ -65,7 +65,7 @@ export default function WebDevelopmentSection() {
             know no boundaries. And so, we{" "}
             <span className="font-medium">don't</span> use any CMS or Website
             Building templates to craft our work. This results in{" "}
-            <span className="border-b-2 border-success">you</span> receiving a{" "}
+            <span className="border-b-2 border-primary">you</span> receiving a{" "}
             <span className="font-medium">
               customized and uniquely inspired
             </span>{" "}

@@ -29,7 +29,7 @@ export default function Features() {
             ref={heading}
           >
             Our Array of Services Guaranteed to Take Your Business to the{" "}
-            <em className="border-b-4 border-success not-italic">Next Level</em>
+            <em className="border-b-4 border-primary not-italic">Next Level</em>
           </h2>
           <hr className="mx-auto mt-4 h-2 w-32 border-none " />
         </div>
