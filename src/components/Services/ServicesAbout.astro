@@ -1,5 +1,6 @@
 ---
 import Button, { ButtonTwo } from "../Button";
+const { content } = Astro.props;
 ---
 
 <section class="max-w-full">
@@ -16,18 +17,16 @@ import Button, { ButtonTwo } from "../Button";
             <p
               class="bg-teal-accent-400 mb-2 inline-block rounded-full px-3 py-px text-xs font-semibold uppercase tracking-wider"
             >
-              Approved by google
+              {content.aboutMiniHeading}
             </p>
           </div>
           <h2
             class="mb-6 max-w-lg text-3xl font-bold tracking-tight sm:text-5xl sm:leading-snug"
           >
-            World's Best <br />
-            <span class="inline-block font-bold">Programming Tutors</span>
+            {content.aboutHeading}
           </h2>
           <p class="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ullam
-            rem voluptatem, animi tempora expedita!Lorem ipsum dolor.
+            {content.aboutDescription}
           </p>
         </div>
         <div class="flex items-center gap-x-4">
@@ -55,8 +54,8 @@ import Button, { ButtonTwo } from "../Button";
         <div class="rounded-xl bg-yellow-400 pt-10">
           <img
             class="h-full w-full object-contain"
-            src="/images/yg7jHmFeLOLmlxPWz8D4C.png"
-            alt=""
+            src={content.aboutImageOne}
+            alt={content.aboutAltOne}
           />
         </div>
       </div>
@@ -66,22 +65,22 @@ import Button, { ButtonTwo } from "../Button";
         <div class="h-40 overflow-hidden rounded-xl bg-green-600/60">
           <img
             class="mx-auto h-full w-full object-contain object-bottom"
-            src="/images/5L6JMrng-34iG1LN5yh7Q.png"
-            alt=""
+            src={content.aboutImageTwo}
+            alt={content.aboutAltTwo}
           />
         </div>
         <div class="h-40 overflow-hidden rounded-xl bg-pink-600/60">
           <img
             class="mx-auto h-full w-full object-contain object-bottom"
-            src="/images/AjCb3ZW2H6zNzumU0E3B2.png"
-            alt=""
+            src={content.aboutImageThree}
+            alt={content.aboutAltThree}
           />
         </div>
         <div class="h-40 overflow-hidden rounded-xl bg-blue-600/60">
           <img
             class="mx-auto h-full w-full object-contain object-bottom"
-            src="/images/LOsO0RwPYEzhVfeDuJG3M.png"
-            alt=""
+            src={content.aboutImageFour}
+            alt={content.aboutAltFour}
           />
         </div>
       </div>

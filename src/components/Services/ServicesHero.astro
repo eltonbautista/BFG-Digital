@@ -4,7 +4,9 @@ import AstroButton from "./AstroButton.astro";
 const { content } = Astro.props;
 ---
 
-<section class="relative py-12 sm:py-16 lg:pt-20 xl:pb-0 overflow-x-hidden">
+<section
+  class="relative py-12 sm:py-16 lg:pt-20 xl:pb-0 overflow-x-hidden bg-neutral"
+>
   <div
     class="shrink-0 from-white/40 absolute left-1/2 h-96 w-96 -translate-x-1/2 rounded-full border border-gray-500 bg-gradient-to-br"
   >
@@ -47,11 +49,9 @@ const { content } = Astro.props;
   </div>
 
   <div
-    class="mt-16 mb-16 flex flex-col items-center justify-center divide-y divide-gray-500 border border-gray-600 bg-gray-700 shadow-lg md:flex-row md:divide-x md:divide-y-0 md:mt-32"
+    class="mt-16 mb-16 flex flex-col items-center justify-center divide-y divide-gray-500 border border-gray-600 bg-accent shadow-lg md:flex-row md:divide-x md:divide-y-0 md:mt-32 text-xs md:text-sm"
   >
-    <div
-      class="flex max-w-xs items-center space-x-2 px-4 py-4 text-xs font-medium"
-    >
+    <div class="flex max-w-xs items-center space-x-2 px-4 py-4">
       <!-- prettier-ignore -->
       <svg
         class="h-12 w-12"
@@ -104,9 +104,7 @@ const { content } = Astro.props;
       </svg>
       <p>High Performance</p>
     </div>
-    <div
-      class="flex max-w-xs items-center space-x-2 px-4 py-4 text-sm font-medium"
-    >
+    <div class="flex max-w-xs items-center space-x-2 px-4 py-4">
       <!-- prettier-ignore -->
       <svg
         class="h-12 w-12"
@@ -130,9 +128,7 @@ const { content } = Astro.props;
       </svg>
       <p>Secure Technologies</p>
     </div>
-    <div
-      class="flex max-w-xs items-center space-x-2 px-4 py-4 text-sm font-medium"
-    >
+    <div class="flex max-w-xs items-center space-x-2 px-4 py-4">
       <!-- prettier-ignore -->
       <svg
         class="h-12 w-12"
@@ -167,7 +163,7 @@ const { content } = Astro.props;
     <div
       class="grid justify-items-center relative mx-auto max-w-screen-xl px-4 md:px-6 lg:px-8"
     >
-      <p class="text-neutral-focus max-w-4xl py-4 md:py-8">
+      <p class="text-neutral-focus text-center max-w-4xl py-4 md:py-8">
         {content.heroDescription}
       </p>
     </div>
