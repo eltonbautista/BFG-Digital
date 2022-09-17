@@ -6,6 +6,9 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import ServicesHero from "../components/Services/ServicesHero.astro";
 import ServicesAbout from "../components/Services/ServicesAbout.astro";
+import ServicesSteps from "../components/Services/ServicesSteps.astro";
+import ServicesPricing from "../components/Services/ServicesPricing.astro";
+import ServicesFAQ from "../components/Services/ServicesFAQ.astro";
 const { content } = Astro.props;
 ---
 
@@ -14,7 +17,12 @@ const { content } = Astro.props;
 >
   <WebsiteLayout client:load>
     <!-- <Home client:idle /> -->
-    <ServicesHero content={content} />
-    <ServicesAbout />
+    <main class="bg-secondary-content">
+      <ServicesHero content={content} />
+      <ServicesAbout content={content} />
+      <ServicesSteps content={content} />
+      <ServicesPricing content={content} />
+      <ServicesFAQ content={content} />
+    </main>
   </WebsiteLayout>
 </Layout>
