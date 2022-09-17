@@ -98,7 +98,7 @@ export default function Navbar({ setTheme }) {
           <div className="dropdown dropdown-end">
             <label
               tabIndex="0"
-              className="btn btn-ghost rounded-btn normal-case font-normal text-base"
+              className="btn btn-ghost rounded-btn normal-case font-normal text-base md:text-lg"
             >
               Services
               <svg
@@ -161,7 +161,7 @@ function NavbarChild({ text, link }) {
       href={link}
       className="flex items-center justify-end rounded-lg px-4 py-2 "
     >
-      <span className="ml-3 text-sm font-medium">{text}</span>
+      <span className="ml-3 font-medium">{text}</span>
     </a>
   );
 }

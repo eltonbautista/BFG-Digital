@@ -5,8 +5,8 @@ import { companyName } from "../../helpers/companyName";
 export default function Hero() {
   return (
     <>
-      <section className="relative pb-28 pt-6 lg:pt-0 lg:pb-32">
-        <div className="max-h-screen w-full overflow-hidden ">
+      <section className="relative pb-28 lg:pt-0 lg:pb-32">
+        <div className="max-h-screen w-full overflow-hidden">
           <video
             className="absolute w-full h-full max-h-full max-w-full object-cover "
             autoPlay

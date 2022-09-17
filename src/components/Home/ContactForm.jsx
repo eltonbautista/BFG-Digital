@@ -66,7 +66,7 @@ export default function ContactForm() {
             <div className="mt-4">
               <button
                 type="button"
-                className="group inline-flex items-center font-medium px-1 lg:mt-4 md:mt-1 hover:text-accent text-base-content"
+                className="group inline-flex items-center font-medium px-1 lg:mt-4 md:mt-1 hover:underline text-base-content"
               >
                 Send Request
                 <svg

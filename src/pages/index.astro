@@ -3,13 +3,13 @@ import Layout from "../layouts/Layout.astro";
 import WebsiteLayout from "../components/WebsiteLayout";
 import Home from "../components/Home/Home";
 import React from "react";
+import Navbar from "../components/Navbar";
 ---
 
 <Layout
   title="BFG Interactive: Calgary Website Design and Development | Calgary Website Development | Calgary Search Engine Optimization (SEO) "
 >
-  <!--  -->
-  <WebsiteLayout client:only="react">
-    <Home />
+  <WebsiteLayout client:load>
+    <Home client:idle />
   </WebsiteLayout>
 </Layout>
