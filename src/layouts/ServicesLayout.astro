@@ -1,0 +1,20 @@
+---
+import Layout from "../layouts/Layout.astro";
+import WebsiteLayout from "../components/WebsiteLayout";
+import Home from "../components/Home/Home";
+import React from "react";
+import Navbar from "../components/Navbar";
+import ServicesHero from "../components/Services/ServicesHero.astro";
+import ServicesAbout from "../components/Services/ServicesAbout.astro";
+const { content } = Astro.props;
+---
+
+<Layout
+  title="BFG Interactive: Calgary Website Design and Development | Calgary Website Development | Calgary Search Engine Optimization (SEO) "
+>
+  <WebsiteLayout client:load>
+    <!-- <Home client:idle /> -->
+    <ServicesHero content={content} />
+    <ServicesAbout />
+  </WebsiteLayout>
+</Layout>
