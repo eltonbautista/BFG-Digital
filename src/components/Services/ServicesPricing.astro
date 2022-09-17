@@ -1,0 +1,71 @@
+---
+import PricingItem from "./PricingItem.astro";
+
+const { pricingHeading, myPricing } = Astro.props.content;
+---
+
+<section class="bg-secondary-content text-neutral">
+  <div
+    class="mx-auto flex flex-col items-center px-4 md:px-6 lg:px-8 pt-16 lg:max-w-screen-xl"
+  >
+    <div
+      class="relative mx-auto mb-12 inline-flex justify-center lg:justify-start lg:w-full"
+    >
+      <h2 class="text-3xl md:text-4xl lg:text-5xl font-semibold">
+        {pricingHeading}
+      </h2>
+    </div>
+    <!--  -->
+    <ul
+      class="grid w-full list-none gap-6 md:grid-cols-2 lg:gap-4 xl:grid-cols-4"
+    >
+      {
+        myPricing.map((item, index) => {
+          return (
+            <PricingItem
+              pricingBannerText={item.pricingBannerText}
+              pricingName={item.pricingName}
+              pricingDescription={item.pricingDescription}
+              pricingPrice={item.pricingPrice}
+              pricingSubDescription={item.pricingSubDescription}
+              pricingIncluded={item.pricingIncluded}
+              pricingList={item.pricingList}
+              bannerBG={item.pricingBannerColor}
+            />
+          );
+        })
+      }
+      <li class="">
+        <div class="w-full border border-gray-200 bg-white">
+          <div class="px-3 pt-8 pb-4 text-center">
+            <h2 class="mb-3 text-3xl font-medium md:text-2xl">
+              Custom Enterprise
+            </h2>
+            <p class="mb-8 text-xl text-gray-700 md:text-base">
+              For Big Businesses with Custom Requirements
+            </p>
+
+            <div class="inline-block text-4xl font-bold md:text-5xl">
+              Get Quote
+            </div>
+            <div class="mt-1 mb-4 text-lg text-gray-700 md:text-sm">
+              <br class="text-sm" />
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, iste.
+            </div>
+            <a
+              class="mx-4 mt-2 block rounded bg-success px-6 py-2 text-xl font-medium text-white shadow md:mx-4 md:mt-2 md:text-lg hover:bg-primary"
+              href="#"
+              >Contact Sales
+            </a>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <div class="my-6 text-center text-3xl md:text-2xl">
+      <p class="text-lg">
+        Please feel free to contact our customer service specialists for any
+        general questions or questions about the packages.
+      </p>
+    </div>
+  </div>
+</section>

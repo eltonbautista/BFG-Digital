@@ -1,0 +1,78 @@
+---
+const {
+  pricingBannerText,
+  pricingName,
+  pricingDescription,
+  pricingPrice,
+  pricingSubDescription,
+  pricingIncluded,
+  pricingList,
+  bannerBG,
+} = Astro.props || Astro.props.content;
+//  TODO: ADD <slot /> for where the <li> items will go (children elements).
+---
+
+<li class="relative">
+  <div class="w-full border border-gray-200 bg-white shadow">
+    <div class="px-3 pt-8 pb-4 text-center">
+      <div
+        class:list={[
+          "absolute top-0 left-0 w-full px-2 py-1 text-sm font-medium uppercase text-error-content",
+          bannerBG,
+        ]}
+      >
+        {pricingBannerText}
+      </div>
+      <h2 class="mb-3 text-3xl font-medium md:text-2xl">{pricingName}</h2>
+      <p class="mb-8 text-xl text-gray-700 md:text-base">
+        {pricingDescription}
+      </p>
+      <div class="relative inline-block text-4xl font-bold md:text-5xl">
+        <span class="absolute top-2 -left-5 block text-2xl font-medium">$</span>
+        {pricingPrice}
+      </div>
+      <p class="mt-1 mb-4 text-lg text-gray-700 md:text-sm">
+        {pricingSubDescription}
+      </p>
+      <!-- <a
+        class="mx-4 mt-2 block rounded bg-gray-900 px-6 py-2 text-xl font-medium text-white shadow md:mx-4 md:mt-2 md:text-lg hover:bg-gray-800"
+        href="#">Start Now</a
+      > -->
+      <a
+        class="mx-4 mt-2 block rounded bg-primary px-6 py-2 text-xl font-medium text-white shadow md:mx-4 md:mt-2 md:text-lg hover:bg-success"
+        href="#"
+        >Start Now
+      </a>
+    </div>
+    <div class="px-10 pt-1 pb-8">
+      <div class="mb-4 text-lg text-gray-600 md:text-sm">
+        {pricingIncluded}
+      </div>
+      <ul class="text-sm text-gray-700">
+        {
+          pricingList.map((item, index) => {
+            return (
+              <li class="flex pb-4 text-lg md:text-sm">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="mr-3 h-6 w-6 text-success"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                {item}
+              </li>
+            );
+          })
+        }
+      </ul>
+    </div>
+  </div>
+</li>
