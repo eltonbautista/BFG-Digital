@@ -1,0 +1,40 @@
+---
+import FAQItems from "./FAQItems.astro";
+
+const { accordionQuestions } = Astro.props.content;
+---
+
+<section class="py-8 lg:py-14 bg-secondary-content">
+  <div class="px-4 md:px-6 lg:px-8">
+    <div
+      class="relative mx-auto w-full py-16 px-5 font-sans text-gray-800 sm:px-20 md:max-w-screen-lg lg:py-24"
+    >
+      <h1 class="mb-5 text-center font-sans text-5xl font-bold">
+        Frequently asked Questions
+      </h1>
+      <p class="mb-12 text-center text-lg text-gray-600">
+        We have written down answers to some of the frequently asked questions.
+        But, if you still have any queries, feel free to ping us on chat.
+      </p>
+      <ul class="space-y-4">
+        {
+          accordionQuestions.map((obj, index) => {
+            return (
+              <FAQItems
+                accordionNumber={"accordion-" + index}
+                question={obj.question}
+                answer={obj.answer}
+              />
+            );
+          })
+        }
+      </ul>
+      <div class="mt-20 flex justify-center">
+        <a
+          class="inline-flex cursor-pointer rounded-lg bg-blue-500 py-3 px-5 text-lg text-white"
+          href="#">Still have questions?</a
+        >
+      </div>
+    </div>
+  </div>
+</section>
