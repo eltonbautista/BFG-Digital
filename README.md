@@ -11,3 +11,5 @@ Assets used:
 - <https://unsplash.com/photos/IzyKe_nNx2A> Picture of Calgary by Riley McNeal on Unsplash
   
 - Video by Borys Zaitsev: <https://www.pexels.com/video/stars-in-space-12275368/>
+
+- <https://storyset.com/web"> Web illustrations by Storyset
