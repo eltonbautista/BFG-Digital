@@ -42,7 +42,7 @@ export default function Features() {
             <FeatureChild
               headerText="Web Development & Design"
               imgAlt="Low code development concept illustration by storycode from freepik.com"
-              imgSrc="/images/web_development.webp"
+              imgSrc="/images/calgary_website_designers.svg"
             >
               Our expert website designers & developers strive for a highly
               performant, fully-responsive, and modernly styled website design
@@ -61,8 +61,8 @@ export default function Features() {
             ref={fCTwo}
           >
             <img
-              className="h-56 md:ml-0 md:object-left object-cover"
-              src="/images/seo.webp"
+              className="h-full w-1/3 md:ml-0 md:object-left object-cover "
+              src="/images/SEO-amico.svg"
               alt="seo analytics team concept illustration by storyset from freepik.com"
               width="400px"
               height="500px"
@@ -71,7 +71,7 @@ export default function Features() {
               <h3 className="text-2xl md:text-3xl font-medium">
                 Search Engine Optimization (SEO)
               </h3>
-              <p className="mt-2 text-base text-base-content max-w-4xl">
+              <p className="mt-2 text-base-content max-w-4xl">
                 What's the point of a beautifully designed website if you're not
                 receiving any traffic?{" "}
                 <span className="font-medium">
@@ -103,7 +103,7 @@ export default function Features() {
             <FeatureChild
               headerText="Social Media Marketing & Management"
               imgAlt="hand drawn illustration of people with smartphone for marketing by pikisuperstar from freepik.com"
-              imgSrc="/images/SMM.webp"
+              imgSrc="/images/SMM.svg"
             >
               Modern problems call for modern solutions, Social Media has been
               the biggest craze in the past decade and it's only becoming more

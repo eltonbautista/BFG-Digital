@@ -42,7 +42,7 @@ export default function SEOSection() {
               </h2>
               <div>
                 <h3
-                  className="mt-4 lg:mt-0 text-left text-base max-w-5xl xyz-out"
+                  className="mt-4 lg:mt-0 text-left max-w-5xl xyz-out"
                   ref={paragraph}
                   xyz="fade-100% small delay-1"
                 >

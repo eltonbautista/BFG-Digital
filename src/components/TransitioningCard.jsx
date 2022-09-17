@@ -11,7 +11,7 @@ export default function TransitioningCard({
     <div className="grid justify-items-center">
       <div className="group flex w-full h-full max-w-sm flex-col self-center overflow-hidden">
         <a
-          className="relative mx-3 mt-3 flex h-60 overflow-hidden rounded-xl"
+          className="relative flex h-60 overflow-hidden rounded-xl"
           href={link}
         >
           <img

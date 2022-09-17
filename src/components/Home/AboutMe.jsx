@@ -44,13 +44,11 @@ export default function AboutMe() {
                 And so, we created {companyName}.
               </p>
               <p className="mb-6 sm:text-lg xyz-out" ref={pTwo}>
-                {/* We are a group of individuals who have a true passion for their
-                craft, understand the importance of not cutting corners, and
-                love providing exceptional solutions and value to our clients. */}
                 We are truly passionate about the work that we do. We can
-                proudly say that we put the time, effort, and dedication into
-                each and every single project that we embark on. Why? Because
-                it's the only way that makes sense to us.
+                proudly say that we put the time, effort, and dedication
+                required into each and every single project that we get the
+                privilege of working on. Why? Because it's the only way that
+                makes sense to us.
               </p>
             </div>
             <div>
