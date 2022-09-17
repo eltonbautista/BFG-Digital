@@ -61,7 +61,7 @@ export default function Features() {
             ref={fCTwo}
           >
             <img
-              className="h-full w-1/3 md:ml-0 md:object-left object-cover "
+              className="h-auto lg:w-1/3 md:ml-0 md:object-left object-cover "
               src="/images/SEO-amico.svg"
               alt="seo analytics team concept illustration by storyset from freepik.com"
               width="400px"

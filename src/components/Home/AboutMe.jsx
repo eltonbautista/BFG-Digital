@@ -75,7 +75,7 @@ export default function AboutMe() {
                   <h3 className="text-center text-2xl md:text-3xl font-medium">
                     Our Founding Values
                   </h3>
-                  <q className="mx-auto mb-4 max-w-xl py-2 text-center text-xs sm:text-sm ">
+                  <q className="mx-auto mb-4 max-w-xl py-2 text-center text-sm">
                     There is something fundamentally wrong with the process if
                     the cornerstones of our society are afraid to trust in one
                     another. We need to be the change we want to see in this

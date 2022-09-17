@@ -5,7 +5,7 @@ import { companyName } from "../../helpers/companyName";
 export default function Hero() {
   return (
     <>
-      <section className="relative pb-32">
+      <section className="relative pb-28 pt-6 lg:pt-0 lg:pb-32">
         <div className="max-h-screen w-full overflow-hidden ">
           <video
             className="absolute w-full h-full max-h-full max-w-full object-cover "
@@ -19,7 +19,7 @@ export default function Hero() {
 
         <div className="mx-auto h-full px-4 py-4 pt-10 md:py-40 sm:max-w-xl md:max-w-full md:px-8 lg:max-w-screen-xl lg:px-8">
           <div className="lg:grid lg:grid-cols-2 flex flex-col items-center justify-between lg:flex-row z-10">
-            <div className="grid w-full min-h-full z-20 lg:col-start-2 lg:col-end-3 lg:row-start-1 lg:row-end-2 mb-4 lg:mb-0">
+            <div className="w-full min-h-full z-20 lg:col-start-2 lg:col-end-3 lg:row-start-1 lg:row-end-2 mb-4 lg:mb-0 hidden md:grid">
               <img
                 className=" w-fullh-full z-20 object-cover"
                 src="/images/bfg_interactive_logo.png"
@@ -31,7 +31,7 @@ export default function Hero() {
             </div>
             <div className="z-20 lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-2">
               <div className="lg:max-w-xl text-[#CCCCCC]">
-                <p className="flex text-sm uppercase mb-2 md:mb-0">
+                <p className="flex text-xs md:text-sm uppercase mb-2 md:mb-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="mr-1 inline h-5 w-5"
@@ -46,9 +46,9 @@ export default function Hero() {
                   </svg>
                   Calgary Website Design For Enabling Business Success
                 </p>
-                <h1 className="mb-6 max-w-xl text-4xl leading-snug tracking-tight md:text-7xl xxl:text-8xl sm:leading-snug">
+                <h1 className="mb-3 max-w-xl text-4xl leading-tight tracking-tight md:text-7xl xxl:text-8xl sm:leading-tight">
                   Websites that generate growth for{" "}
-                  <span className="my-1 inline-block border-b-8 border-secondary-content">
+                  <span className="inline-block border-b-4 border-secondary-content">
                     your business.
                   </span>
                   <span className="sr-only">

@@ -60,7 +60,7 @@ export default function SEOSection() {
                   </span>
                 </h3>
                 <div
-                  className="flex flex-col sm:flex-row sm:space-x-4 sm:px-0 xyz-out"
+                  className="grid justify-items-start sm:flex-row sm:space-x-4 sm:px-0 xyz-out mt-2"
                   ref={button}
                   xyz="fade-100% flip-up flip-left delay-4"
                 >

@@ -5,7 +5,7 @@ export default function FeatureChild({ imgSrc, imgAlt, headerText, children }) {
   return (
     <div className="flex flex-col items-center md:flex-row w-full gap-x-6">
       <img
-        className="h-full w-1/3 object-cover md:order-2 md:object-left"
+        className="h-auto lg:w-1/3 object-cover md:order-2 md:object-left"
         src={imgSrc}
         alt={imgAlt}
         width="400px"

@@ -28,7 +28,7 @@ export default function WebDevelopmentSection() {
         >
           Web Development & Web Design
         </h2>
-        <div ref={cardOne} className="xyz-out">
+        <div ref={cardOne} className="xyz-out mb-6">
           <TransitioningCard
             title="Developer & Designer Portfolio"
             imgOneSrc="/images/best_SEO.webp"
@@ -37,7 +37,7 @@ export default function WebDevelopmentSection() {
             projectType="Website Development & Search Engine Optimization (SEO)"
           />
         </div>
-        <div ref={cardTwo} className="xyz-out">
+        <div ref={cardTwo} className="xyz-out mb-6">
           <TransitioningCard
             title="Pet Grooming"
             imgOneSrc="/images/best_SEO_three.webp"
@@ -46,7 +46,7 @@ export default function WebDevelopmentSection() {
             projectType="Website Development & Search Engine Optimization (SEO)"
           />
         </div>
-        <div ref={cardThree} className="xyz-out">
+        <div ref={cardThree} className="xyz-out mb-6">
           <TransitioningCard
             title="SaaS Startup"
             imgOneSrc="/images/best_SEO_five.webp"
@@ -56,7 +56,7 @@ export default function WebDevelopmentSection() {
           />
         </div>
         <div
-          className="lg:col-span-3 grid gap-2 max-w-5xl xyz-out mt-4 lg:pt-0 border-t-2 border-primary p-4 lg:p-0 lg:border-t-0"
+          className="lg:col-span-3 grid gap-2 max-w-5xl xyz-out mt-4 lg:pt-0 border-t-2 border-primary pt-6 lg:p-0 lg:border-t-0"
           ref={cTA}
         >
           <p className="">
