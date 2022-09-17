@@ -116,7 +116,9 @@ export default function Navbar({ setTheme }) {
               className="menu dropdown-content p-2 shadow bg-neutral rounded-box w-64 mt-4"
             >
               <li>
-                <a>Web Development & Design</a>
+                <a href="/calgary-web-design-company/web-development">
+                  Web Development & Design
+                </a>
               </li>
               <li>
                 <a>Search Engine Optimization (SEO)</a>
