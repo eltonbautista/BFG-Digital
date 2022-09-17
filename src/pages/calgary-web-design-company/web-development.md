@@ -10,4 +10,10 @@ heroDescription: Our professional website designers and developers are experts i
 descriptionButton: Web Design Portfolio
 pricingButton: Web Design Pricing
 fAQButton: Web Design FAQ
+# /HERO SECTION
+
+# ABOUT SECTION
+aboutMiniHeading:
+aboutHeading:
+
 ---
