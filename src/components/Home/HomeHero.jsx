@@ -48,7 +48,7 @@ export default function Hero() {
                 </p>
                 <h1 className="mb-6 max-w-xl text-4xl leading-snug tracking-tight md:text-7xl xxl:text-8xl sm:leading-snug">
                   Websites that generate growth for{" "}
-                  <span className="my-1 inline-block border-b-8 border-primary">
+                  <span className="my-1 inline-block border-b-8 border-secondary-content">
                     your business.
                   </span>
                   <span className="sr-only">
@@ -74,8 +74,11 @@ export default function Hero() {
                   Our professional website designers and developers are experts
                   in crafting gorgeous, and highly performant websites. In
                   combination with our skilled SEO specialists, {companyName} is
-                  confident in providing exceptional value for you and your
-                  customers!{" "}
+                  confident in providing an unparalelled website experience for
+                  your visitors, and ultimately, an exceptional value for{" "}
+                  <span className="border-b-2 border-secondary-content">
+                    you.
+                  </span>{" "}
                   <span className="sr-only">
                     Search Engine Optimization SEO Search Engine Optimization
                     SEO Search Engine Optimization SEO Search Engine
@@ -90,7 +93,7 @@ export default function Hero() {
                 <a
                   href="/"
                   aria-label=""
-                  className="group inline-flex items-center uppercase text-sm px-4 pl-0 self-center md:pl-4 mt-4 md:mt-1 hover:text-success font-medium"
+                  className="group inline-flex items-center uppercase text-sm px-4 pl-0 self-center md:pl-4 mt-4 md:mt-1 hover:underline font-medium"
                 >
                   How our websites generate business for you
                   <svg
