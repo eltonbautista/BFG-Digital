@@ -1,0 +1,20 @@
+---
+const { link, title, bgColor, textColor } = Astro.props;
+---
+
+<a
+  class="relative inline-block text-sm font-medium group focus:outline-none focus:ring"
+  href={link ? link : ""}
+>
+  <span
+    class:list={[
+      "absolute inset-0 transition-transform translate-x-0.5 translate-y-0.5 group-hover:translate-y-0 group-hover:translate-x-0",
+      bgColor,
+    ]}></span>
+
+  <span
+    class:list={["relative block px-8 py-3 border border-current", textColor]}
+  >
+    {title}
+  </span>
+</a>
