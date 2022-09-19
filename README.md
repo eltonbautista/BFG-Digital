@@ -13,3 +13,12 @@ Assets used:
 - Video by Borys Zaitsev: <https://www.pexels.com/video/stars-in-space-12275368/>
 
 - <https://storyset.com/web"> Web illustrations by Storyset
+
+- Photo by Ali Müftüoğulları: <https://www.pexels.com/photo/silhouette-of-person-in-front-of-fireworks-2297472/>
+
+- Photo by <"https://unsplash.com/@sourabhgijare?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sourabh Gijare on Unsplash
+
+- Photo by Ben Sweet: <https://unsplash.com/photos/2LowviVHZ-E>
+
+- Photo by Joe Shields: <https://unsplash.com/photos/dLij9K4ObYY>
+  

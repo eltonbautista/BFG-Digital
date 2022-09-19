@@ -3,7 +3,7 @@ import Button, { ButtonTwo } from "../Button";
 const { content } = Astro.props;
 ---
 
-<section class="max-w-full bg-neutral text-primary-content">
+<section class="max-w-full bg-neutral text-primary-content pb-10 lg:pb-32">
   <div
     class="relative mx-auto flex flex-col px-4 md:px-6 lg:px-8 sm:max-w-xl md:max-w-screen-xl md:flex-row"
   >
@@ -45,11 +45,13 @@ const { content } = Astro.props;
       <div
         class="my-auto mb-20 hidden w-56 flex-col space-y-3 md:mt-36 lg:flex"
       >
-        <div class="rounded-xl bg-accent pt-10">
+        <div class="rounded-xl bg-info-content py-5">
           <img
             class="h-full w-full object-contain"
             src={content.aboutImageOne}
             alt={content.aboutAltOne}
+            width="300px"
+            height="400px"
           />
         </div>
       </div>
@@ -61,6 +63,8 @@ const { content } = Astro.props;
             class="mx-auto h-full w-full object-contain object-bottom"
             src={content.aboutImageTwo}
             alt={content.aboutAltTwo}
+            width="300px"
+            height="400px"
           />
         </div>
         <div class="h-40 overflow-hidden rounded-xl bg-error">
@@ -68,6 +72,8 @@ const { content } = Astro.props;
             class="mx-auto h-full w-full object-contain object-bottom"
             src={content.aboutImageThree}
             alt={content.aboutAltThree}
+            width="300px"
+            height="400px"
           />
         </div>
         <div class="h-40 overflow-hidden rounded-xl bg-warning-content">
@@ -75,6 +81,8 @@ const { content } = Astro.props;
             class="mx-auto h-full w-full object-contain object-bottom"
             src={content.aboutImageFour}
             alt={content.aboutAltFour}
+            width="300px"
+            height="400px"
           />
         </div>
       </div>
