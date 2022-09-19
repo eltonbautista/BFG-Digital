@@ -3,7 +3,7 @@ import Button, { ButtonTwo } from "../Button";
 const { content } = Astro.props;
 ---
 
-<section class="max-w-full">
+<section class="max-w-full bg-neutral">
   <div
     class="relative mx-auto flex flex-col px-4 md:px-6 lg:px-8 sm:max-w-xl md:max-w-screen-xl md:flex-row"
   >
@@ -11,11 +11,11 @@ const { content } = Astro.props;
     <div
       class="my-auto mx-auto mt-10 w-full max-w-xl md:mt-56 lg:max-w-screen-xl"
     >
-      <div class="mb-16 lg:mb-0 lg:max-w-lg">
-        <div class="mb-6 max-w-xl">
+      <div class="mb-16 lg:mb-0 lg:max-w-xl">
+        <div class="mb-6 max-w-2xl">
           <div>
             <p
-              class="bg-teal-accent-400 mb-2 inline-block rounded-full px-3 py-px text-xs font-semibold uppercase tracking-wider"
+              class="bg-teal-accent-400 mb-2 inline-block rounded-full py-px text-xs font-semibold uppercase tracking-wider"
             >
               {content.aboutMiniHeading}
             </p>
@@ -30,12 +30,6 @@ const { content } = Astro.props;
           </p>
         </div>
         <div class="flex items-center gap-x-4">
-          <!-- <a
-            href="/"
-            class="mr-6 inline-flex h-12 items-center justify-center rounded bg-orange-600 px-6 font-medium tracking-wide text-white shadow-md outline-none transition duration-200 hover:bg-orange-400 focus:ring"
-          >
-            Get started
-          </a> -->
           <Button title="Start Now" link="" />
           <ButtonTwo title="Learn more" link="" />
         </div>
@@ -51,7 +45,7 @@ const { content } = Astro.props;
       <div
         class="my-auto mb-20 hidden w-56 flex-col space-y-3 md:mt-36 lg:flex"
       >
-        <div class="rounded-xl bg-yellow-400 pt-10">
+        <div class="rounded-xl bg-accent pt-10">
           <img
             class="h-full w-full object-contain"
             src={content.aboutImageOne}
@@ -62,21 +56,21 @@ const { content } = Astro.props;
       <div
         class="my-auto flex space-x-3 rounded-xl md:mt-36 md:w-60 md:flex-col md:space-y-3 md:space-x-0 md:px-4"
       >
-        <div class="h-40 overflow-hidden rounded-xl bg-green-600/60">
+        <div class="h-40 overflow-hidden rounded-xl bg-success">
           <img
             class="mx-auto h-full w-full object-contain object-bottom"
             src={content.aboutImageTwo}
             alt={content.aboutAltTwo}
           />
         </div>
-        <div class="h-40 overflow-hidden rounded-xl bg-pink-600/60">
+        <div class="h-40 overflow-hidden rounded-xl bg-error">
           <img
             class="mx-auto h-full w-full object-contain object-bottom"
             src={content.aboutImageThree}
             alt={content.aboutAltThree}
           />
         </div>
-        <div class="h-40 overflow-hidden rounded-xl bg-blue-600/60">
+        <div class="h-40 overflow-hidden rounded-xl bg-warning-content">
           <img
             class="mx-auto h-full w-full object-contain object-bottom"
             src={content.aboutImageFour}

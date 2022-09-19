@@ -21,7 +21,7 @@ const { content } = Astro.props;
         <span class="font-semibold block uppercase">{content.heroHeading}</span>
       </h1>
       <h2
-        class="mx-auto mt-4 max-w-md text-xl md:text-2xl lg:text-3xl leading-7"
+        class="mx-auto mt-4 max-w-3xl text-xl md:text-2xl lg:text-3xl leading-7"
       >
         {content.heroSubHeading}
       </h2>
@@ -131,29 +131,15 @@ const { content } = Astro.props;
     <div class="flex max-w-xs items-center space-x-2 px-4 py-4">
       <!-- prettier-ignore -->
       <svg
-        class="h-12 w-12"
         xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 14 14"
-        ><path
-          fill="none"
-          stroke="white"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          d="M0.796814 6.74899C0.796814 3.05244 2.34761 1.4682 2.86454 0.940125H11.1355C11.6524 1.4682 13.2032 3.05244 13.2032 6.74899C13.2032 10.9736 9.13011 12.5318 7.06238 13.0599C4.99465 12.5318 0.796814 10.9736 0.796814 6.74899Z"
-        ></path><path
-          fill="none"
-          stroke="white"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          d="M7.00004 7.78243C8.15243 7.78243 9.08663 6.84823 9.08663 5.69584C9.08663 4.54345 8.15243 3.60925 7.00004 3.60925C5.84765 3.60925 4.91345 4.54345 4.91345 5.69584C4.91345 6.84823 5.84765 7.78243 7.00004 7.78243Z"
-        ></path><path
-          fill="none"
-          stroke="white"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          d="M10.4848 11.5944C9.30446 12.3843 7.98414 12.8244 7.06236 13.0598C6.12771 12.8211 4.75784 12.3719 3.53717 11.5612C3.7638 11.2242 4.03998 10.9198 4.35893 10.6591C5.10426 10.0499 6.03728 9.7171 6.99991 9.7171C7.96253 9.7171 8.89556 10.0499 9.64089 10.6591C9.9703 10.9283 10.2541 11.2443 10.4848 11.5944Z"
-        ></path>
+        class="mr-1 inline h-12 w-12"
+        viewBox="0 0 20 20"
+        fill="white"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M5 2a1 1 0 011 1v1h1a1 1 0 010 2H6v1a1 1 0 01-2 0V6H3a1 1 0 010-2h1V3a1 1 0 011-1zm0 10a1 1 0 011 1v1h1a1 1 0 110 2H6v1a1 1 0 11-2 0v-1H3a1 1 0 110-2h1v-1a1 1 0 011-1zM12 2a1 1 0 01.967.744L14.146 7.2 17.5 9.134a1 1 0 010 1.732l-3.354 1.935-1.18 4.455a1 1 0 01-1.933 0L9.854 12.8 6.5 10.866a1 1 0 010-1.732l3.354-1.935 1.18-4.455A1 1 0 0112 2z"
+          clip-rule="evenodd"></path>
       </svg>
       <p>Modernly Styled</p>
     </div>

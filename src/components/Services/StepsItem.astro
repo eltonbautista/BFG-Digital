@@ -1,0 +1,22 @@
+---
+const { stepsHeading, stepsDescription, stepsImgSrc, stepsImgAlt } =
+  Astro.props || Astro.props.content;
+---
+
+<div
+  class="md:border-b-2 border-success-content md:shadow-lg m-2 md:p-8 lg:p-12"
+>
+  <img
+    class="h-auto lg:w-auto md:ml-0 md:object-left object-cover"
+    src={stepsImgSrc}
+    alt={stepsImgAlt}
+    width="300px"
+    height="400px"
+  />
+  <h3 class="mt-12 text-xl font-bold">
+    {stepsHeading}
+  </h3>
+  <p class="mt-5 text-base">
+    {stepsDescription}
+  </p>
+</div>

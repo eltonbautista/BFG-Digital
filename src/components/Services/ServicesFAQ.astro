@@ -1,4 +1,5 @@
 ---
+import { ButtonTwo } from "../Button";
 import FAQItems from "./FAQItems.astro";
 
 const { accordionQuestions } = Astro.props.content;
@@ -9,9 +10,11 @@ const { accordionQuestions } = Astro.props.content;
     <div
       class="relative mx-auto w-full py-16 px-5 font-sans text-gray-800 sm:px-20 md:max-w-screen-lg lg:py-24"
     >
-      <h1 class="mb-5 text-center font-sans text-5xl font-bold">
+      <h2
+        class="mb-5 text-center font-sans text-3xl md:text-4xl lg:text-5xl font-bold"
+      >
         Frequently asked Questions
-      </h1>
+      </h2>
       <p class="mb-12 text-center text-lg text-gray-600">
         We have written down answers to some of the frequently asked questions.
         But, if you still have any queries, feel free to ping us on chat.
@@ -31,9 +34,10 @@ const { accordionQuestions } = Astro.props.content;
       </ul>
       <div class="mt-20 flex justify-center">
         <a
-          class="inline-flex cursor-pointer rounded-lg bg-blue-500 py-3 px-5 text-lg text-white"
-          href="#">Still have questions?</a
-        >
+          class="mx-4 mt-2 block rounded bg-success px-6 py-2 text-xl font-medium text-white shadow md:mx-4 md:mt-2 md:text-lg hover:bg-primary"
+          href="#"
+          >Still have questions?
+        </a>
       </div>
     </div>
   </div>
