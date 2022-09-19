@@ -60,11 +60,20 @@ export default function Navbar({ setTheme }) {
 
         <nav className="mt-1.5 ml-8 flex flex-col transition-all duration-500 z-50">
           <NavbarChild link="/" text="Home" />
-          <NavbarChild link="/" text="About" />
-          <NavbarChild link="/" text="Web Development & Design" />
-          <NavbarChild link="/" text="Search Engine Optimization (SEO)" />
-          <NavbarChild link="/" text="Social Media Marketing & Management" />
-          <NavbarChild link="/" text="Contact" />
+          <NavbarChild link="/#about" text="About" />
+          <NavbarChild
+            link="/calgary-web-design-company/web-development"
+            text="Web Development & Design"
+          />
+          <NavbarChild
+            link="/calgary-web-design-company/web-development"
+            text="Search Engine Optimization (SEO)"
+          />
+          <NavbarChild
+            link="/calgary-web-design-company/web-development"
+            text="Social Media Marketing & Management"
+          />
+          <NavbarChild link="#contact" text="Contact" />
         </nav>
       </details>
       <nav className="navbar max-w-screen-xl hidden md:flex">
@@ -86,13 +95,13 @@ export default function Navbar({ setTheme }) {
         <div className="flex-none">
           <ul className="menu menu-horizontal p-0 hidden md:flex">
             <li>
-              <a>Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a>About</a>
+              <a href="/#about">About</a>
             </li>
             <li>
-              <a>Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
           <div className="dropdown dropdown-end">
@@ -121,10 +130,14 @@ export default function Navbar({ setTheme }) {
                 </a>
               </li>
               <li>
-                <a>Search Engine Optimization (SEO)</a>
+                <a href="/calgary-web-design-company/web-development">
+                  Search Engine Optimization (SEO)
+                </a>
               </li>
               <li>
-                <a>Social Media Marketing & Management</a>
+                <a href="/calgary-web-design-company/web-development">
+                  Social Media Marketing & Management
+                </a>
               </li>
             </ul>
           </div>

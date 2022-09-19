@@ -43,6 +43,7 @@ export default function Features() {
               headerText="Web Development & Design"
               imgAlt="Low code development concept illustration by storycode from freepik.com"
               imgSrc="/images/calgary_website_designers.svg"
+              link="/calgary-web-design-company/web-development"
             >
               Our expert website designers & developers strive for a highly
               performant, fully-responsive, and modernly styled website design
@@ -92,7 +93,10 @@ export default function Features() {
                 website at the{" "}
                 <span className="font-medium">top of Google</span>.
               </p>
-              <Button link="/" title="Learn more" />
+              <Button
+                link="/calgary-web-design-company/web-development"
+                title="Learn more"
+              />
             </div>
           </div>
 
@@ -104,6 +108,7 @@ export default function Features() {
               headerText="Social Media Marketing & Management"
               imgAlt="hand drawn illustration of people with smartphone for marketing by pikisuperstar from freepik.com"
               imgSrc="/images/SMM.svg"
+              link="/calgary-web-design-company/web-development"
             >
               Modern problems call for modern solutions, Social Media has been
               the biggest craze in the past decade and it's only becoming more

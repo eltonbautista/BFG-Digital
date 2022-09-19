@@ -19,7 +19,7 @@ export default function AboutMe() {
   }, []);
 
   return (
-    <section className="bg-neutral-content text-neutral">
+    <section className="bg-neutral-content text-neutral" id="about">
       <div className="py-6 sm:py-8 lg:py-12 ">
         <div className="mx-auto max-w-screen-xl px-4 md:px-6 lg:px-8">
           <div className="grid gap-8 lg:grid-cols-2 lg:gap-12">

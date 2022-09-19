@@ -1,7 +1,13 @@
 import React, { Component } from "react";
 import Button from "../Button";
 
-export default function FeatureChild({ imgSrc, imgAlt, headerText, children }) {
+export default function FeatureChild({
+  imgSrc,
+  imgAlt,
+  headerText,
+  children,
+  link,
+}) {
   return (
     <div className="flex flex-col items-center md:flex-row w-full gap-x-6">
       <img
@@ -18,7 +24,7 @@ export default function FeatureChild({ imgSrc, imgAlt, headerText, children }) {
           color="secondary"
           bg="accent"
           hoverColor="accent"
-          link="/"
+          link={link}
           title="Learn more"
           direction="left"
         />

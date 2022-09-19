@@ -64,8 +64,10 @@ export default function SEOSection() {
                   ref={button}
                   xyz="fade-100% flip-up flip-left delay-4"
                 >
-                  <Button title="Start Now" />
-                  {/* <ButtonTwo link="/" title="" /> */}
+                  <Button
+                    title="Start Now"
+                    link="/calgary-web-design-company/web-development"
+                  />
                 </div>
               </div>
             </div>

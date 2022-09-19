@@ -15,10 +15,10 @@ fAQButton: Web Design FAQ
 aboutMiniHeading: bfg interactive - calgary web design and search engine optimization
 aboutHeading: Website Design & Development
 aboutDescription: We take on one project at a time. Yes, you read that right - one project at a time. We know how big of a decision it is for a business to choose us as their website designer & developer, and we take that on as a token of belief and trust. Just as you have chosen to believe in us, we have decided to provide your business with undivided attention and plan to deliver a fantastic product on time. 
-aboutImageOne: 
-aboutImageTwo:  
-aboutImageThree: 
-aboutImageFour: 
+aboutImageOne: /images/web_programmer.webp
+aboutImageTwo: /images/web_developer.jpg
+aboutImageThree: /images/web_designer.webp
+aboutImageFour: /images/web_seo.webp
 aboutAltOne: 
 aboutAltTwo: 
 aboutAltThree:
@@ -27,7 +27,7 @@ aboutAltFour:
 
 # STEPS SECTION
 servicesHeading: Website Design & Development Process
-servicesDescription: Here is our process!
+servicesDescription: The following section will inform you about our intuitive and hassle-free web design and development process!
 servicesSteps: [{
   stepsHeading: "01. Meeting & Consulting", 
   stepsDescription: "You will get the option to directly meet with one of our team members either in real life, or through an online appointment. This initial consultation will allow our company to better understand your needs.", 

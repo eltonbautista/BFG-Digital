@@ -4,7 +4,7 @@ import { ButtonTwo } from "../Button";
 
 export default function ContactForm() {
   return (
-    <section className="grid justify-items-center py-8">
+    <section className="grid justify-items-center py-8" id="contact">
       <h2 className="text-3xl sm:text-4xl lg:text-5xl font-medium text-center mb-3 lg:mb-10">
         Contact Us
       </h2>
