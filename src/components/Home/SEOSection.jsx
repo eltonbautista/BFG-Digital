@@ -33,7 +33,7 @@ export default function SEOSection() {
           <div className="relative mx-auto my-auto grid items-center">
             <div className="grid gap-2 lg:gap-4 mb-4 w-full">
               <h2
-                className="text-left font-medium leading-tight text-3xl md:text-4xl lg:text-5xl xyz-out"
+                className="text-left font-semibold leading-tight text-3xl md:text-4xl lg:text-5xl xyz-out"
                 ref={heading}
                 xyz="fade-100% small"
               >

@@ -12,7 +12,7 @@ export default function TransitioningCard({
       <div className="group flex w-full h-full max-w-sm flex-col self-center overflow-hidden">
         <a className="relative flex h-60 overflow-hidden " href={link}>
           <img
-            className="peer absolute top-0 right-0 h-full w-full object-cover"
+            className="peer absolute top-0 right-0 h-full w-full object-contain md:object-cover"
             src={imgOneSrc}
             alt={`${title} screenshot`}
             width="200px"

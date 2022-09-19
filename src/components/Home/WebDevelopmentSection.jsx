@@ -23,7 +23,7 @@ export default function WebDevelopmentSection() {
         xyz="stagger-2 fade back-5 left-100% perspective-3"
       >
         <h2
-          className="lg:col-span-3 w-full justify-self-center text-base-content text-3xl sm:text-4xl font-medium xl:text-5xl mb-4 lg:mb-10 SEO xyz-out"
+          className="lg:col-span-3 w-full justify-self-center text-base-content text-3xl sm:text-4xl font-semibold xl:text-5xl mb-4 lg:mb-10 SEO xyz-out"
           ref={heading}
         >
           Web Development & Web Design

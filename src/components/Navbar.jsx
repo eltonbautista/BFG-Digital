@@ -4,7 +4,7 @@ import { companyName } from "../helpers/companyName";
 export default function Navbar({ setTheme }) {
   return (
     <header className="grid justify-items-center lg:absolute z-50 bg-neutral lg:bg-transparent text-primary-content w-full pb-2">
-      <details className="group transition-all duration-150 h-10 open:h-72 overflow-hidden w-full md:hidden">
+      <details className="group transition-all duration-150 h-10 open:h-80 overflow-hidden w-full md:hidden text-sm">
         <summary className="transition-all duration-500  flex cursor-pointer items-center rounded-lg px-4 py-2 ">
           <span className="sm:max-w-[200px] ">
             <img
@@ -131,12 +131,12 @@ export default function Navbar({ setTheme }) {
               </li>
               <li>
                 <a href="/calgary-web-design-company/web-development">
-                  Search Engine Optimization (SEO)
+                  Search Engine Optimization
                 </a>
               </li>
               <li>
                 <a href="/calgary-web-design-company/web-development">
-                  Social Media Marketing & Management
+                  Social Media Marketing
                 </a>
               </li>
             </ul>

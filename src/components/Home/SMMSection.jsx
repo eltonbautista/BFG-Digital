@@ -20,7 +20,7 @@ export default function SSMSection() {
           xyz="fade left-50% back-5 stagger-2"
           ref={descriptionContainer}
         >
-          <h2 className="mb-6 text-3xl sm:text-4xl lg:text-5xl font-medium xyz-nested xyz-out">
+          <h2 className="mb-6 text-3xl sm:text-4xl lg:text-5xl font-semibold xyz-nested xyz-out">
             What you can expect from us
           </h2>
           <p className="xyz-nested xyz-out">

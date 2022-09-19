@@ -25,7 +25,7 @@ export default function Features() {
             {companyName} proudly presents
           </p>
           <h2
-            className="mt-2 text-3xl font-medium sm:text-4xl xl:text-5xl max-w-5xl SEO xyz-out"
+            className="mt-2 text-3xl font-semibold sm:text-4xl xl:text-5xl max-w-5xl SEO xyz-out"
             ref={heading}
           >
             Digital Services Guaranteed to Take Your Business to the{" "}

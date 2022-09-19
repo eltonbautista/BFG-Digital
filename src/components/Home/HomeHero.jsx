@@ -46,7 +46,7 @@ export default function Hero() {
                   </svg>
                   Calgary Website Design For Enabling Business Success
                 </p>
-                <h1 className="mb-3 max-w-xl text-5xl leading-tight tracking-tight lg:text-6xl xxl:text-8xl sm:leading-tight">
+                <h1 className="mb-3 max-w-xl text-4xl font-semibold leading-tight tracking-tight lg:text-6xl xxl:text-8xl sm:leading-tight">
                   Websites that generate growth for{" "}
                   <span className="inline-block border-b-4 border-secondary-content">
                     your business.
