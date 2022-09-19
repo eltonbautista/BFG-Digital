@@ -5,7 +5,7 @@ const { content } = Astro.props;
 ---
 
 <section
-  class="relative py-12 sm:py-16 lg:pt-20 xl:pb-0 overflow-x-hidden bg-neutral"
+  class="relative py-12 sm:py-16 lg:pt-20 xl:pb-0 overflow-x-hidden text-secondary-content"
 >
   <div
     class="shrink-0 from-white/40 absolute left-1/2 h-96 w-96 -translate-x-1/2 rounded-full border border-gray-500 bg-gradient-to-br"
@@ -30,26 +30,26 @@ const { content } = Astro.props;
           title={content.descriptionButton}
           link="/"
           bgColor="bg-primary"
-          textColor="text-neutral-content"
+          textColor="text-secondary-content"
         />
         <AstroButton
           title={content.pricingButton}
           link="/"
           bgColor="bg-primary"
-          textColor="text-neutral-content"
+          textColor="text-secondary-content"
         />
         <AstroButton
           title={content.fAQButton}
           link="/"
           bgColor="bg-primary"
-          textColor="text-neutral-content"
+          textColor="text-secondary-content"
         />
       </div>
     </div>
   </div>
 
   <div
-    class="mt-16 mb-16 flex flex-col items-center justify-center divide-y divide-gray-500 border border-gray-600 bg-accent shadow-lg md:flex-row md:divide-x md:divide-y-0 md:mt-32 text-xs md:text-sm"
+    class="mt-16 mb-16 flex flex-col items-center justify-center divide-y divide-gray-500 border border-gray-600 bg-accent shadow-lg md:flex-row md:divide-x md:divide-y-0 md:mt-32 text-xs md:text-sm text-base-content"
   >
     <div class="flex max-w-xs items-center space-x-2 px-4 py-4">
       <!-- prettier-ignore -->

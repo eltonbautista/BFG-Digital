@@ -9,6 +9,7 @@ import ServicesAbout from "../components/Services/ServicesAbout.astro";
 import ServicesSteps from "../components/Services/ServicesSteps.astro";
 import ServicesPricing from "../components/Services/ServicesPricing.astro";
 import ServicesFAQ from "../components/Services/ServicesFAQ.astro";
+import ContactForm from "../components/Home/ContactForm";
 const { content } = Astro.props;
 ---
 
@@ -17,12 +18,15 @@ const { content } = Astro.props;
 >
   <WebsiteLayout client:load>
     <!-- <Home client:idle /> -->
-    <main class="bg-secondary-content">
+    <main class="bg-neutral">
       <ServicesHero content={content} />
       <ServicesAbout content={content} />
       <ServicesSteps content={content} />
       <ServicesPricing content={content} />
       <ServicesFAQ content={content} />
+      <div class="bg-neutral text-primary-content">
+        <ContactForm />
+      </div>
     </main>
   </WebsiteLayout>
 </Layout>

@@ -5,19 +5,17 @@ import FAQItems from "./FAQItems.astro";
 const { accordionQuestions } = Astro.props.content;
 ---
 
-<section class="py-8 lg:py-14 bg-secondary-content">
+<section class="py-8 lg:py-14 bg-secondary-content text-primary-focus">
   <div class="px-4 md:px-6 lg:px-8">
     <div
-      class="relative mx-auto w-full py-16 px-5 font-sans text-gray-800 sm:px-20 md:max-w-screen-lg lg:py-24"
+      class="relative mx-auto w-full py-16 px-5 text-gray-800 sm:px-20 md:max-w-screen-lg lg:py-24"
     >
-      <h2
-        class="mb-5 text-center font-sans text-3xl md:text-4xl lg:text-5xl font-bold"
-      >
+      <h2 class="mb-5 text-center text-3xl md:text-4xl lg:text-5xl font-bold">
         Frequently asked Questions
       </h2>
       <p class="mb-12 text-center text-lg text-gray-600">
-        We have written down answers to some of the frequently asked questions.
-        But, if you still have any queries, feel free to ping us on chat.
+        We have written down answers to some of our most frequently asked
+        questions. But, if you still have any queries, feel free to contact us.
       </p>
       <ul class="space-y-4">
         {
