@@ -67,10 +67,10 @@ export default function Footer() {
 
                 <nav className="mt-4">
                   <ul className="space-y-1.5 text-sm">
-                    <FooterLink url="/" title={`About ${companyName}`} />
-                    <FooterLink url="/" title="Clients" />
-                    <FooterLink url="/" title="Testimonials" />
-                    <FooterLink url="/" title="Contact" />
+                    <FooterLink url="/#about" title={`About ${companyName}`} />
+                    <FooterLink url="/coming-soon" title="Clients" />
+                    <FooterLink url="/coming-soon" title="Testimonials" />
+                    <FooterLink url="#contact" title="Contact" />
                   </ul>
                 </nav>
               </div>
@@ -80,14 +80,20 @@ export default function Footer() {
 
                 <nav className="mt-4">
                   <ul className="space-y-1.5 text-sm">
-                    <FooterLink url="/" title="Web Development" />
-                    <FooterLink url="/" title="Web Design" />
                     <FooterLink
-                      url="/"
+                      url="/calgary-web-design-company/web-development"
+                      title="Web Development"
+                    />
+                    <FooterLink
+                      url="/calgary-web-design-company/web-development"
+                      title="Web Design"
+                    />
+                    <FooterLink
+                      url="/calgary-web-design-company/web-development"
                       title="Search Engine Optimization (SEO)"
                     />
                     <FooterLink
-                      url="/"
+                      url="/calgary-web-design-company/web-development"
                       title="Social Media Marketing & Management"
                     />
                   </ul>
@@ -99,9 +105,12 @@ export default function Footer() {
 
                 <nav className="mt-4">
                   <ul className="space-y-1.5 text-sm">
-                    <FooterLink url="/" title="FAQ" />
-                    <FooterLink url="/" title="Blog" />
-                    <li>
+                    <FooterLink
+                      url="/calgary-web-design-company/web-development#FAQ"
+                      title="FAQ"
+                    />
+                    <FooterLink url="/coming-soon" title="Blog" />
+                    {/* <li>
                       <a
                         className="flex group justify-center gap-1.5 lg:justify-start"
                         href="/"
@@ -115,7 +124,7 @@ export default function Footer() {
                           <span className="relative inline-flex w-2 h-2 bg-primary-content rounded-full"></span>
                         </span>
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </nav>
               </div>
@@ -123,10 +132,19 @@ export default function Footer() {
 
             <div className="pt-8 mt-16 text-sm  border-t border-base-100 lg:mt-24">
               <p className="text-center lg:text-left">
-                <FooterLink url="/" title="Privacy Policy" underline /> &nbsp;
-                <FooterLink url="/" title="Terms & Conditions" underline />{" "}
+                <FooterLink
+                  url="/coming-soon"
+                  title="Privacy Policy"
+                  underline
+                />{" "}
                 &nbsp;
-                <FooterLink url="/" title="Cookies" underline />
+                <FooterLink
+                  url="/coming-soon"
+                  title="Terms & Conditions"
+                  underline
+                />{" "}
+                &nbsp;
+                {/* <FooterLink url="/" title="Cookies" underline /> */}
               </p>
 
               <p className="mt-4 text-center lg:text-left">
