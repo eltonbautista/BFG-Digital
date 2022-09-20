@@ -19,10 +19,10 @@ aboutImageOne: /images/web_programmer.webp
 aboutImageTwo: /images/web_developer.jpg
 aboutImageThree: /images/web_designer.webp
 aboutImageFour: /images/web_seo.webp
-aboutAltOne: 
-aboutAltTwo: 
-aboutAltThree:
-aboutAltFour: 
+aboutAltOne: silhouette of man and fireworks
+aboutAltTwo: silhouette of person looking right
+aboutAltThree: silhouette of person looking forward
+aboutAltFour: silhouette of person looking left
 # /ABOUT SECTION
 
 # STEPS SECTION
