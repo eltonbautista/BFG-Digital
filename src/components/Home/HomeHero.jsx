@@ -93,7 +93,7 @@ export default function Hero() {
                 <a
                   href="/calgary-web-design-company/web-development/#serviceSteps"
                   aria-label=""
-                  className="group inline-flex items-center uppercase px-4 pl-0 self-center md:pl-4 mt-4 md:mt-1 hover:underline font-medium"
+                  className="group inline-flex items-center uppercase px-4 pl-0 self-center md:pl-4 mt-4 md:mt-1 hover:underline font-medium text-sm lg:text-base"
                 >
                   How our websites generate business for you
                   <svg
