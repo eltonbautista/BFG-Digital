@@ -136,7 +136,7 @@ export default function Footer() {
               <div className="flex justify-center mt-6 gap-4 lg:justify-start">
                 <a
                   className=" transition hover:/75"
-                  href=""
+                  href="https://www.facebook.com/BFG-Interactive-Media-107876375414422"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -158,7 +158,7 @@ export default function Footer() {
 
                 <a
                   className=" transition hover:/75"
-                  href=""
+                  href="https://www.instagram.com/bfginteractive/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -180,7 +180,7 @@ export default function Footer() {
 
                 <a
                   className=" transition hover:/75"
-                  href=""
+                  href="https://twitter.com/home"
                   target="_blank"
                   rel="noreferrer"
                 >
