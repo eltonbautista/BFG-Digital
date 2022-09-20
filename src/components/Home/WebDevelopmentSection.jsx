@@ -74,10 +74,9 @@ export default function WebDevelopmentSection() {
               this is what sets us apart from the rest of the industry.
             </span>
           </p>
-          <ButtonTwo
-            title="Learn about our website design process"
-            link="/calgary-web-design-company/web-development"
-          />
+          <ButtonTwo link="/calgary-web-design-company/web-development">
+            Learn about our website design process
+          </ButtonTwo>
         </div>
       </div>
     </section>

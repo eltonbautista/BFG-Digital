@@ -17,14 +17,14 @@ export default function Button({ title, link }) {
   );
 }
 
-function ButtonTwo({ title, link }) {
+function ButtonTwo({ link, children }) {
   return (
     <a
       href={link}
-      aria-label=""
+      aria-label="learn more"
       className="group inline-flex items-center lg:px-0 font-medium uppercase md:mt-1 hover:underline text-sm lg:text-base"
     >
-      <span>{title}</span>
+      {children}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="group-hover:translate-x-2 ml-4 h-6 w-6 transition-transform"

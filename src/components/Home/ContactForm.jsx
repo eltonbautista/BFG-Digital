@@ -65,7 +65,7 @@ export default function ContactForm() {
               ></textarea>
             </div>
             <div className="mt-4 text-primary-content">
-              <ButtonTwo title="Send Request" link="/" />
+              <ButtonTwo link="/">Send Request</ButtonTwo>
             </div>
           </form>
         </div>
