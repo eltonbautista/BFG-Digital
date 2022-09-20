@@ -21,7 +21,7 @@ function ButtonTwo({ link, children }) {
   return (
     <a
       href={link}
-      aria-label="learn more"
+      aria-label="our process"
       className="group inline-flex items-center lg:px-0 font-medium uppercase md:mt-1 hover:underline text-sm lg:text-base"
     >
       {children}

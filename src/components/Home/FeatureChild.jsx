@@ -25,7 +25,7 @@ export default function FeatureChild({
           bg="accent"
           hoverColor="accent"
           link={link}
-          title="Learn more"
+          title="Learn about our process"
           direction="left"
         />
       </div>

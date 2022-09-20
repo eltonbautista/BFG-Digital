@@ -95,7 +95,7 @@ export default function Features() {
               </p>
               <Button
                 link="/calgary-web-design-company/web-development"
-                title="Learn more"
+                title="Learn about our process"
               />
             </div>
           </div>
