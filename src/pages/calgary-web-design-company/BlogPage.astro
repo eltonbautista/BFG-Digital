@@ -1,0 +1,11 @@
+---
+import BlogPosts from "../../components/BlogComponents/BlogPosts.astro";
+import ServicesHero from "../../components/Services/ServicesHero.astro";
+import BlogLayout from "../../layouts/BlogLayout.astro";
+const { content } = Astro.props;
+---
+
+<BlogLayout>
+  <ServicesHero content={content} />
+  <BlogPosts content={content} />
+</BlogLayout>
