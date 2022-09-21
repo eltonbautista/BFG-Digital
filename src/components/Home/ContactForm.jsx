@@ -46,10 +46,8 @@ export default function ContactForm() {
                   className="w-full p-3 text-sm border-accent rounded-lg "
                   placeholder="Email address"
                   type="email"
-                  autocapitalize="off"
-                  autocorrect="off"
-                  name="MERGE0"
-                  id="MERGE0"
+                  autoCapitalize="off"
+                  autoCorrect="off"
                   required
                 />
               </div>

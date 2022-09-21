@@ -53,8 +53,8 @@ export default function Footer() {
                     required
                     type="email"
                     placeholder="Enter your email"
-                    autocapitalize="off"
-                    autocorrect="off"
+                    autoCapitalize="off"
+                    autoCorrect="off"
                     name="MERGE0"
                     id="MERGE0"
                   />
