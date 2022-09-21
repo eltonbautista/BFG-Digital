@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 
-export default function Button({ title, link }) {
+export default function Button({ title, link, type }) {
   return (
-    <button className="mt-3">
+    <button className="mt-3" type={type}>
       <a
         className="uppercase font-medium relative inline-block px-8 py-3 overflow-hidden border border-primary group focus:outline-none focus:ring"
         href={link}

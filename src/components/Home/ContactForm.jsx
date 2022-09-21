@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { companyName } from "../../helpers/companyName";
-import { ButtonTwo } from "../Button";
+import Button, { ButtonTwo } from "../Button";
 
 export default function ContactForm() {
   return (
@@ -17,7 +17,13 @@ export default function ContactForm() {
           </h3>
         </div>
         <div className=" rounded-lg  lg:p-12 lg:pt-0 max-w-screen-xl w-full">
-          <form action="" className="space-y-4 text-neutral">
+          <form
+            action="https://bfginteractive.us10.list-manage.com/subscribe/post"
+            method="POST"
+            className="space-y-4 text-neutral"
+          >
+            <input type="hidden" name="u" value="80aba07a99b3202fcbaa8eb66" />
+            <input type="hidden" name="id" value="47a1d2ea8d" />
             <div>
               <label className="sr-only" htmlFor="name">
                 Name
@@ -26,7 +32,9 @@ export default function ContactForm() {
                 className="w-full p-3 text-sm border-accent rounded-lg "
                 placeholder="Name"
                 type="text"
-                id="name"
+                name="MERGE1"
+                id="MERGE1"
+                required
               />
             </div>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
@@ -38,7 +46,11 @@ export default function ContactForm() {
                   className="w-full p-3 text-sm border-accent rounded-lg "
                   placeholder="Email address"
                   type="email"
-                  id="email"
+                  autocapitalize="off"
+                  autocorrect="off"
+                  name="MERGE0"
+                  id="MERGE0"
+                  required
                 />
               </div>
               <div>
@@ -49,7 +61,9 @@ export default function ContactForm() {
                   className="w-full p-3 text-sm border-accent rounded-lg"
                   placeholder="Phone Number"
                   type="tel"
-                  id="phone"
+                  name="MERGE6"
+                  id="MERGE6"
+                  required
                 />
               </div>
             </div>
@@ -61,11 +75,13 @@ export default function ContactForm() {
                 className="w-full p-3 text-sm border-accent rounded-lg"
                 placeholder="Message"
                 rows="8"
-                id="message"
+                name="MERGE2"
+                id="MERGE2"
+                required
               ></textarea>
             </div>
             <div className="mt-4 text-primary-content">
-              <ButtonTwo link="/">Send Request</ButtonTwo>
+              <Button type="submit" title="Send request" />
             </div>
           </form>
         </div>

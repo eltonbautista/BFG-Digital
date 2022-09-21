@@ -31,7 +31,17 @@ export default function Footer() {
                 </p>
               </div>
 
-              <form className="mt-6">
+              <form
+                action="https://bfginteractive.us10.list-manage.com/subscribe/post"
+                method="POST"
+                className="mt-6"
+              >
+                <input
+                  type="hidden"
+                  name="u"
+                  value="80aba07a99b3202fcbaa8eb66"
+                />
+                <input type="hidden" name="id" value="47a1d2ea8d" />
                 <div className="relative max-w-lg mx-auto lg:mx-0">
                   <label className="sr-only" htmlFor="email-footer">
                     {" "}
@@ -40,12 +50,16 @@ export default function Footer() {
 
                   <input
                     className="w-full py-4 pl-3 pr-16 text-sm text-primary bg-white border-none rounded-md"
-                    id="email-footer"
+                    required
                     type="email"
                     placeholder="Enter your email"
+                    autocapitalize="off"
+                    autocorrect="off"
+                    name="MERGE0"
+                    id="MERGE0"
                   />
                   <div className="absolute text-white">
-                    <Button link="/" title="Subscribe" />
+                    <Button type="submit" title="Subscribe" />
                   </div>
                 </div>
               </form>
