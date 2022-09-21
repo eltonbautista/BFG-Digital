@@ -1,0 +1,16 @@
+---
+import Layout from "../layouts/Layout.astro";
+import WebsiteLayout from "../components/WebsiteLayout";
+
+const { content } = Astro.props;
+---
+
+<Layout
+  title="Calgary Website Design and Development Blogs | Calgary Website Development | Calgary Search Engine Optimization (SEO) "
+>
+  <WebsiteLayout client:load>
+    <main class="bg-neutral">
+      <slot />
+    </main>
+  </WebsiteLayout>
+</Layout>
