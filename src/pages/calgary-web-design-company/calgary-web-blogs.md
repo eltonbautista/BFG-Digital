@@ -1,5 +1,5 @@
 ---
-layout: /src/pages/calgary-web-design-company/BlogPage.astro
+layout: /src/layouts/BlogPage.astro
 
 heroHeadingDescription: Technologies | Calgary | Finance
 heroHeading: BFG Interactive Blogs
