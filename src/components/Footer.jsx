@@ -123,7 +123,10 @@ export default function Footer() {
                       url="/calgary-web-design-company/web-development#FAQ"
                       title="FAQ"
                     />
-                    <FooterLink url="/coming-soon" title="Blog" />
+                    <FooterLink
+                      url="/calgary-web-design-company/calgary-web-blogs"
+                      title="Blog"
+                    />
                     {/* <li>
                       <a
                         className="flex group justify-center gap-1.5 lg:justify-start"

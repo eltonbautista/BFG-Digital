@@ -10,11 +10,22 @@ pricingButton: Web Design & Development
 fAQButton: Contact Us
 
 articleListObjects: [{
-  articleDate: Sept. 21, 2022, 
-  articleTitle: How to create a blog,
-  articleDescription: Today I teach you how to create a blog website,
-  articleLink: /,
+  articleDate: "Sept. 23, 2022", 
+  articleTitle: Best Drinks in Calgary,
+  articleDescription: Mmm Yummy!,
   articleImgSrc: https://images.unsplash.com/photo-1476362555312-ab9e108a0b7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80,
-  articleImgAlt: A blog post
-}]
+  articleImgAlt: A blog topic preview
+}, {
+  articleDate: "Sept. 22, 2022", 
+  articleTitle: Best Restaurants in Calgary,
+  articleDescription: Mmm Yummy!,
+  articleImgSrc: https://images.unsplash.com/photo-1476362555312-ab9e108a0b7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80,
+  articleImgAlt: A blog topic preview
+},{
+  articleDate: "Sept. 21, 2022", 
+  articleTitle: Modern Frontend Frameworks,
+  articleDescription: Today we'll learn about Frontend Frameworks.,
+  articleImgSrc: https://images.unsplash.com/photo-1476362555312-ab9e108a0b7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80,
+  articleImgAlt: A blog topic preview
+},   ]
 ---

@@ -1,6 +1,9 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import WebsiteLayout from "../components/WebsiteLayout";
+import BlogTemplate from "../components/BlogComponents/BlogTemplate.astro";
+import BlogPage from "../pages/calgary-web-design-company/BlogPage.astro";
+import BlogPosts from "../components/BlogComponents/BlogPosts.astro";
 
 const { content } = Astro.props;
 ---
@@ -10,7 +13,10 @@ const { content } = Astro.props;
 >
   <WebsiteLayout client:load>
     <main class="bg-neutral">
-      <slot />
+      <BlogTemplate content={content}>
+        <slot />
+      </BlogTemplate>
+      <BlogPosts content={content} />
     </main>
   </WebsiteLayout>
 </Layout>

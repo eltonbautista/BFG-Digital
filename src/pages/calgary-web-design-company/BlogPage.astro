@@ -1,11 +1,16 @@
 ---
 import BlogPosts from "../../components/BlogComponents/BlogPosts.astro";
 import ServicesHero from "../../components/Services/ServicesHero.astro";
-import BlogLayout from "../../layouts/BlogLayout.astro";
+import WebsiteLayout from "../../components/WebsiteLayout";
+import Layout from "../../layouts/Layout.astro";
 const { content } = Astro.props;
 ---
 
-<BlogLayout>
-  <ServicesHero content={content} />
-  <BlogPosts content={content} />
-</BlogLayout>
+<Layout title="Calgary Web Design Blogs">
+  <WebsiteLayout client:load>
+    <main class="bg-neutral">
+      <ServicesHero content={content} />
+      <BlogPosts content={content} />
+    </main>
+  </WebsiteLayout>
+</Layout>
