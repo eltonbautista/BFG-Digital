@@ -3,7 +3,7 @@ layout: /src/layouts/BlogPage.astro
 
 heroHeadingDescription: Technologies | Calgary | Finance
 heroHeading: BFG Interactive Blogs
-heroSubHeading: Providing exceptional service, incredible value, and an enjoyable experience.
+heroSubHeading: Below you'll find an array of articles written by members of our team - ps. they may be a tinsy bit opinionated!
 heroDescription: Our professional website designers and developers are experts in crafting gorgeous, and highly performant websites. In combination with our skilled SEO specialists, BFG Interactive is confident in providing an unparalelled website experience for your visitors, and ultimately, an exceptional value for you.
 descriptionButton: Home
 pricingButton: Web Design & Development
@@ -12,7 +12,7 @@ fAQButton: Contact Us
 articleListObjects: [{
   articleDate: "Sept. 23, 2022", 
   articleTitle: Best Drinks in Calgary,
-  articleDescription: Mmm Yummy!,
+  articleDescription: Great tasting drinks from all around Calgary!,
   articleImgSrc: https://images.unsplash.com/photo-1662753614774-0319b0f10a0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80,
   articleImgAlt: A blog topic preview
 }, {
