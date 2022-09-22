@@ -58,7 +58,7 @@ export default function Footer() {
                     name="MERGE0"
                     id="MERGE0"
                   />
-                  <div className="absolute text-white">
+                  <div className="absolute text-white pt-4">
                     <Button type="submit" title="Subscribe" />
                   </div>
                 </div>
@@ -127,6 +127,7 @@ export default function Footer() {
                       url="/calgary-web-design-company/calgary-web-blogs"
                       title="Blog"
                     />
+                    {/* TODO: DON'T DELETE */}
                     {/* <li>
                       <a
                         className="flex group justify-center gap-1.5 lg:justify-start"
