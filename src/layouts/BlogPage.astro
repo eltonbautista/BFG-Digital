@@ -10,17 +10,9 @@ const { content } = Astro.props;
 
 <Layout title="Calgary Web Design Blogs">
   <WebsiteLayout client:load>
+    <div class="h-20 w-full bg-neutral"></div>
     <main class="bg-neutral">
-      <div class="h-screen max-h-screen">
-        <ServicesHero content={content} />
-      </div>
       <BlogPosts content={content} />
-      <section class="pt-8 lg:pt-24">
-        <p class="text-center text-sm md:text-base lg:text-lg">
-          Like what you see? Get in touch!
-        </p>
-        <ContactForm />
-      </section>
     </main>
   </WebsiteLayout>
 </Layout>

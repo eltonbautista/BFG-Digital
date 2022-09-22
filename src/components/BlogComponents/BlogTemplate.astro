@@ -14,11 +14,9 @@ let index =
 
 <section>
   <div class="lg:h-20 bg-neutral"></div>
-  <div>
-    <article class="pt-20 bg-base-100">
-      <header
-        class="mx-auto max-w-screen-lg rounded-t-lg p-8 pt-16 text-center shadow-lg"
-      >
+  <div class="">
+    <article class="pt-2 md:pt-14 bg-base-100">
+      <header class="mx-auto max-w-screen-xl rounded-t-lg p-8">
         <p class="">
           Published {
             articleList.frontmatter.articleListObjects[index].articleDate
@@ -30,7 +28,7 @@ let index =
         <p class="mt-6 text-lg">
           {articleList.frontmatter.articleListObjects[index].articleDescription}
         </p>
-        <div class="mt-6 flex flex-wrap justify-center gap-2">
+        <div class="mt-6 flex flex-wrap gap-2">
           {
             articleTags.map((tag, i) => {
               return (
@@ -61,14 +59,16 @@ let index =
       </header>
 
       <div
-        class="mx-auto max-w-screen-lg space-y-12 rounded-b-lg px-8 pt-10 pb-20 text-lg tracking-wide sm:shadow-lg"
+        class="mx-auto max-w-screen-xl space-y-12 rounded-b-lg px-8 pt-10 pb-20 text-lg tracking-wide sm:"
       >
         <h2 class="text-2xl font-semibold">{articleHeadingStatement}</h2>
         <blockquote class="max-w-lg border-l-4 px-4">
           {articleQuote}
           <span class="whitespace-nowrap text-sm">— {articleQuoteAuthor}</span>
         </blockquote>
-        <slot />
+        <div class="max-w-screen-lg">
+          <slot />
+        </div>
       </div>
     </article>
   </div>

@@ -39,7 +39,7 @@ export default function Home() {
       </svg>
       <SEOSection />
       <SMMSection />
-      <div className="bg-neutral">
+      <div className="bg-neutral text-secondary-content">
         <ContactForm />
       </div>
     </main>
