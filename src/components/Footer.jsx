@@ -64,6 +64,20 @@ export default function Footer() {
                 </div>
               </form>
             </div>
+            <div className="mt-32 grid justify-items-center">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://griap.link/resources/hit/1545/wGtdgRRmAT"
+              >
+                <img
+                  src="https://griap.link/resources/view/1545/wGtdgRRmAT"
+                  alt="Be known by your own web domain (en)"
+                  width="400px"
+                  height="400px"
+                />
+              </a>
+            </div>
           </div>
 
           <div className="pt-16 pb-8 lg:pt-24 lg:pr-12">
