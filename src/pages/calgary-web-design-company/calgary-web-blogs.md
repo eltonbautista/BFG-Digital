@@ -22,10 +22,10 @@ articleListObjects: [{
   articleImgSrc: https://images.unsplash.com/photo-1483070312440-c83f6a799f35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80,
   articleImgAlt: A blog topic preview
 },{
-  articleDate: "Sept. 21, 2022", 
-  articleTitle: Modern Frontend Frameworks,
-  articleDescription: Today we'll learn about Frontend Frameworks.,
+  articleDate: "Sept. 24, 2022", 
+  articleTitle: Best Affiliate Marketing Programs for Beginners,
+  articleDescription: Today we're going to be checking out the best Affiliate Marketing Programs available for beginners like you and I!,
   articleImgSrc: https://images.unsplash.com/photo-1580894742597-87bc8789db3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80,
-  articleImgAlt: A blog topic preview
+  articleImgAlt: Affiliate marketing and links
 },   ]
 ---
