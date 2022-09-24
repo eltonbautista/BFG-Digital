@@ -11,12 +11,5 @@ export default defineConfig({
   experimental: {
     integrations: true,
   },
-  integrations: [
-    tailwind(),
-    react(),
-    robotsTxt({
-      sitemap: false,
-    }),
-    sitemap(),
-  ],
+  integrations: [tailwind(), react(), robotsTxt(), sitemap()],
 });
